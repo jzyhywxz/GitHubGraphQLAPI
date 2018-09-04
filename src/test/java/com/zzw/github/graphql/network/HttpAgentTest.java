@@ -1,5 +1,6 @@
 package com.zzw.github.graphql.network;
 
+import com.zzw.tools.io.OkTextReader;
 import com.zzw.tools.network.HttpAgent;
 import okhttp3.MediaType;
 import okhttp3.RequestBody;
@@ -36,7 +37,10 @@ public class HttpAgentTest {
 //    @Test
     public void testPostMethod() {
         String rootEndpoint = "https://api.github.com/graphql";
-        String accessToken = "24c7963d1bea8a280869514fb02e4be0fc95038f";
+        OkTextReader reader = new OkTextReader();
+        reader.open("F:\\JetBrains\\IntelliJIdea\\access_token.txt");
+        String accessToken = reader.readLine();
+        reader.close();
         String payload = "{\"query\":\"query{\\n  viewer{\\n    login\\n  }\\n}\",\"variables\":{}}";
 
         HttpAgent httpAgent = new HttpAgent();

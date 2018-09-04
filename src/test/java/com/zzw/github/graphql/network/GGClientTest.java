@@ -13,6 +13,7 @@ import com.zzw.github.graphql.schema.mutations.Mutation;
 import com.zzw.github.graphql.schema.objects.Repository;
 import com.zzw.github.graphql.schema.objects.User;
 import com.zzw.github.graphql.schema.query.Query;
+import com.zzw.tools.io.OkTextReader;
 import org.junit.Test;
 
 /**
@@ -94,7 +95,10 @@ public class GGClientTest {
 //    @Test
     public void testNetwork() {
         String rootEndpoint = "https://api.github.com/graphql";
-        String accessToken = "24c7963d1bea8a280869514fb02e4be0fc95038f";
+        OkTextReader reader = new OkTextReader();
+        reader.open("F:\\JetBrains\\IntelliJIdea\\access_token.txt");
+        String accessToken = reader.readLine();
+        reader.close();
         GGClient client = new GGClient(rootEndpoint, accessToken);
         GitHubGraphQLGson gson = GitHubGraphQLGson.getInstance();
 
@@ -154,7 +158,10 @@ public class GGClientTest {
 //    @Test
     public void testOkGson() {
         String rootEndpoint = "https://api.github.com/graphql";
-        String accessToken = "24c7963d1bea8a280869514fb02e4be0fc95038f";
+        OkTextReader reader = new OkTextReader();
+        reader.open("F:\\JetBrains\\IntelliJIdea\\access_token.txt");
+        String accessToken = reader.readLine();
+        reader.close();
         GGClient client = new GGClient(rootEndpoint, accessToken);
 
         System.out.println("===================================");

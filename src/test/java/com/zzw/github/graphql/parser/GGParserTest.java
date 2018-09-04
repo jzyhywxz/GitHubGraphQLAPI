@@ -1,16 +1,12 @@
 package com.zzw.github.graphql.parser;
 
 import com.zzw.github.graphql.network.GGClient;
-import com.zzw.github.graphql.schema.Metadata;
 import com.zzw.github.graphql.schema.objects.CommitComment;
-import com.zzw.github.graphql.schema.objects.Issue;
-import com.zzw.github.graphql.schema.objects.IssueTimelineItemEdge;
 import com.zzw.github.graphql.schema.query.QueryEntry;
+import com.zzw.tools.io.OkTextReader;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.Arrays;
 
 /**
  * Created by zzw on 2018/8/24.
@@ -19,7 +15,10 @@ public class GGParserTest {
 //    @Test
     public void testGGParser() {
         String rootEndpoint = "https://api.github.com/graphql";
-        String accessToken = "24c7963d1bea8a280869514fb02e4be0fc95038f";
+        OkTextReader reader = new OkTextReader();
+        reader.open("F:\\JetBrains\\IntelliJIdea\\access_token.txt");
+        String accessToken = reader.readLine();
+        reader.close();
         GGClient connector = new GGClient(rootEndpoint, accessToken);
         String payload = "{\"query\":\"query{\\n  node(id:\\\"MDEzOkNvbW1pdENvbW1lbnQyMDk1MDI1\\\"){\\n    __typename\\n    ... on CommitComment{\\n      id\\n    }\\n  }\\n}\",\"variables\":\"{}\"}";
         try {
