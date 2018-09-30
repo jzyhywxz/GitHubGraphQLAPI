@@ -5,14 +5,14 @@ import com.zzw.github.graphql.builder.GraphQLArgument;
 import com.zzw.github.graphql.parser.GGParser;
 import com.zzw.github.graphql.parser.GitHubGraphQLGson;
 import com.zzw.github.graphql.schema.mutations.MutationEntry;
-import com.zzw.github.graphql.schema.query.QueryEntry;
+import com.zzw.github.graphql.schema.queries.QueryEntry;
 import com.zzw.github.graphql.schema.enums.ReactionContent;
 import com.zzw.github.graphql.schema.inputobjects.AddReactionInput;
 import com.zzw.github.graphql.schema.mutations.AddReaction;
 import com.zzw.github.graphql.schema.mutations.Mutation;
 import com.zzw.github.graphql.schema.objects.Repository;
 import com.zzw.github.graphql.schema.objects.User;
-import com.zzw.github.graphql.schema.query.Query;
+import com.zzw.github.graphql.schema.queries.Query;
 import com.zzw.tools.io.OkTextReader;
 import org.junit.Test;
 

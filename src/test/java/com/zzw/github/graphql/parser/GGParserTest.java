@@ -2,7 +2,7 @@ package com.zzw.github.graphql.parser;
 
 import com.zzw.github.graphql.network.GGClient;
 import com.zzw.github.graphql.schema.objects.CommitComment;
-import com.zzw.github.graphql.schema.query.QueryEntry;
+import com.zzw.github.graphql.schema.queries.QueryEntry;
 import com.zzw.tools.io.OkTextReader;
 import org.junit.Test;
 
