@@ -11,8 +11,8 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("A list of Users assigned to this object.")
@@ -23,8 +23,8 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("A list of comments associated with the pull request.")
@@ -35,8 +35,8 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("A list of commits present in this pull request's head branch not present in the base branch.")
@@ -47,8 +47,8 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @Description("A list of labels associated with the object.")
     private com.zzw.github.graphql.schema.objects.LabelConnection labels;
@@ -58,8 +58,8 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("A list of Users that are participating in the Pull Request conversation.")
@@ -69,9 +69,10 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
 
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
+        @Argument(name="archivedStates", type="com.zzw.github.graphql.schema.enums.ProjectCardArchivedState[]", nonNull=@NonNull(""), description=@Description("A list of archived states to filter the cards by")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("List of project cards associated with this pull request.")
@@ -83,9 +84,9 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
         @Argument(name="content", type="com.zzw.github.graphql.schema.enums.ReactionContent", nonNull=@NonNull(""), description=@Description("Allows filtering Reactions by emoji.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.ReactionOrder", nonNull=@NonNull(""), description=@Description("Returns the last")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.ReactionOrder", nonNull=@NonNull(""), description=@Description("Allows specifying the order in which reactions are returned.")),
     })
     @NonNull("!")
     @Description("A list of Reactions left on the Issue.")
@@ -96,8 +97,8 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @Description("A list of review requests associated with the pull request.")
     private com.zzw.github.graphql.schema.objects.ReviewRequestConnection reviewRequests;
@@ -108,9 +109,9 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="author", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Filter by author of the review.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="states", type="com.zzw.github.graphql.schema.enums.PullRequestReviewState[]", nonNull=@NonNull("[!]"), description=@Description("Returns the last")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="states", type="com.zzw.github.graphql.schema.enums.PullRequestReviewState[]", nonNull=@NonNull("[!]"), description=@Description("A list of states to filter the reviews.")),
     })
     @Description("A list of reviews associated with the pull request.")
     private com.zzw.github.graphql.schema.objects.PullRequestReviewConnection reviews;
@@ -120,9 +121,9 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="since", type="com.zzw.github.graphql.schema.scalars.DateTime", nonNull=@NonNull(""), description=@Description("Returns the last")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="since", type="com.zzw.github.graphql.schema.scalars.DateTime", nonNull=@NonNull(""), description=@Description("Allows filtering timeline events by a since timestamp.")),
     })
     @NonNull("!")
     @Description("A list of events, comments, commits, etc. associated with the pull request.")
@@ -133,8 +134,23 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="itemTypes", type="com.zzw.github.graphql.schema.enums.PullRequestTimelineItemsItemType[]", nonNull=@NonNull("[!]"), description=@Description("Filter timeline items by type.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="since", type="com.zzw.github.graphql.schema.scalars.DateTime", nonNull=@NonNull(""), description=@Description("Filter timeline items by a since timestamp.")),
+        @Argument(name="skip", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Skips the first n elements in the list.")),
+    })
+    @NonNull("!")
+    @Description("A list of events, comments, commits, etc. associated with the pull request.")
+    private com.zzw.github.graphql.schema.objects.PullRequestTimelineItemsConnection timelineItems;
+    public com.zzw.github.graphql.schema.objects.PullRequestTimelineItemsConnection getTimelineItems() { return this.timelineItems; }
+    public void setTimelineItems(com.zzw.github.graphql.schema.objects.PullRequestTimelineItemsConnection timelineItems) { this.timelineItems = timelineItems; }
+
+    @Arguments({
+        @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
+        @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @Description("A list of edits to this content.")
     private com.zzw.github.graphql.schema.objects.UserContentEditConnection userContentEdits;
@@ -211,7 +227,7 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     public void setChangedFiles(com.zzw.github.graphql.schema.scalars.Int changedFiles) { this.changedFiles = changedFiles; }
 
     @NonNull("!")
-    @Description(" if the pull request is closed")
+    @Description("true if the pull request is closed")
     private com.zzw.github.graphql.schema.scalars.Boolean closed;
     public com.zzw.github.graphql.schema.scalars.Boolean getClosed() { return this.closed; }
     public void setClosed(com.zzw.github.graphql.schema.scalars.Boolean closed) { this.closed = closed; }
@@ -299,7 +315,7 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     public void setLastEditedAt(com.zzw.github.graphql.schema.scalars.DateTime lastEditedAt) { this.lastEditedAt = lastEditedAt; }
 
     @NonNull("!")
-    @Description(" if the pull request is locked")
+    @Description("true if the pull request is locked")
     private com.zzw.github.graphql.schema.scalars.Boolean locked;
     public com.zzw.github.graphql.schema.scalars.Boolean getLocked() { return this.locked; }
     public void setLocked(com.zzw.github.graphql.schema.scalars.Boolean locked) { this.locked = locked; }
@@ -360,7 +376,7 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     public com.zzw.github.graphql.schema.scalars.URI getPermalink() { return this.permalink; }
     public void setPermalink(com.zzw.github.graphql.schema.scalars.URI permalink) { this.permalink = permalink; }
 
-    @Description("The commit that GitHub automatically generated to test if this pull request could be merged. This field will not return a value if the pull request is merged, or if the test merge commit is still being generated. See the ")
+    @Description("The commit that GitHub automatically generated to test if this pull request could be merged. This field will not return a value if the pull request is merged, or if the test merge commit is still being generated. See the mergeable field for more details on the mergeability of the pull request.")
     private com.zzw.github.graphql.schema.objects.Commit potentialMergeCommit;
     public com.zzw.github.graphql.schema.objects.Commit getPotentialMergeCommit() { return this.potentialMergeCommit; }
     public void setPotentialMergeCommit(com.zzw.github.graphql.schema.objects.Commit potentialMergeCommit) { this.potentialMergeCommit = potentialMergeCommit; }
@@ -429,6 +445,12 @@ public class PullRequest extends com.zzw.github.graphql.schema.Metadata implemen
     private com.zzw.github.graphql.schema.scalars.URI url;
     public com.zzw.github.graphql.schema.scalars.URI getUrl() { return this.url; }
     public void setUrl(com.zzw.github.graphql.schema.scalars.URI url) { this.url = url; }
+
+    @NonNull("!")
+    @Description("Whether or not the viewer can apply suggestion.")
+    private com.zzw.github.graphql.schema.scalars.Boolean viewerCanApplySuggestion;
+    public com.zzw.github.graphql.schema.scalars.Boolean getViewerCanApplySuggestion() { return this.viewerCanApplySuggestion; }
+    public void setViewerCanApplySuggestion(com.zzw.github.graphql.schema.scalars.Boolean viewerCanApplySuggestion) { this.viewerCanApplySuggestion = viewerCanApplySuggestion; }
 
     @NonNull("!")
     @Description("Can user react to this subject")

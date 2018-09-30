@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("State of the project; either 'open' or 'closed'")
 public enum ProjectState {
     @Description("The project is closed.")
-     CLOSED,
+    CLOSED,
     @Description("The project is open.")
-     OPEN,
+    OPEN,
 }

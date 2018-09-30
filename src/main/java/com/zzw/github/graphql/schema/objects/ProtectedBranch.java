@@ -11,8 +11,8 @@ public class ProtectedBranch extends com.zzw.github.graphql.schema.Metadata impl
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("A list push allowances for this protected branch.")
@@ -23,8 +23,8 @@ public class ProtectedBranch extends com.zzw.github.graphql.schema.Metadata impl
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("A list review dismissal allowances for this protected branch.")
@@ -91,7 +91,7 @@ public class ProtectedBranch extends com.zzw.github.graphql.schema.Metadata impl
     public void setIsAdminEnforced(com.zzw.github.graphql.schema.scalars.Boolean isAdminEnforced) { this.isAdminEnforced = isAdminEnforced; }
 
     @NonNull("!")
-    @Description("Identifies the name of the protected branch.")
+    @Description("The name of the protected branch rule.")
     private com.zzw.github.graphql.schema.scalars.String name;
     public com.zzw.github.graphql.schema.scalars.String getName() { return this.name; }
     public void setName(com.zzw.github.graphql.schema.scalars.String name) { this.name = name; }

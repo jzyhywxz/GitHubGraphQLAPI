@@ -13,7 +13,6 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 })
 @Description("Represents an owner of a registry package.")
 public interface RegistryPackageOwner {
-    @NonNull("!")
     public com.zzw.github.graphql.schema.scalars.ID getId();
     public void setId(com.zzw.github.graphql.schema.scalars.ID id);
 }

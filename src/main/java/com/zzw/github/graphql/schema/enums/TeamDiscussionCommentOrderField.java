@@ -9,5 +9,5 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which team discussion comment connections can be ordered.")
 public enum TeamDiscussionCommentOrderField {
     @Description("Allows sequential ordering of team discussion comments (which is equivalent to chronological ordering).")
-     NUMBER,
+    NUMBER,
 }

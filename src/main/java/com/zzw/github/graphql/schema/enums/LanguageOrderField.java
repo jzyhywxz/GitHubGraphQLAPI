@@ -9,5 +9,5 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which language connections can be ordered.")
 public enum LanguageOrderField {
     @Description("Order languages by the size of all files containing the language")
-     SIZE,
+    SIZE,
 }

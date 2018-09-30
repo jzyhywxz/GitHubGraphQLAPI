@@ -10,9 +10,10 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 public class ProjectColumn extends com.zzw.github.graphql.schema.Metadata implements com.zzw.github.graphql.schema.interfaces.Node {
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
+        @Argument(name="archivedStates", type="com.zzw.github.graphql.schema.enums.ProjectCardArchivedState[]", nonNull=@NonNull(""), description=@Description("A list of archived states to filter the cards by")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("List of cards in the column")
@@ -47,6 +48,11 @@ public class ProjectColumn extends com.zzw.github.graphql.schema.Metadata implem
     private com.zzw.github.graphql.schema.objects.Project project;
     public com.zzw.github.graphql.schema.objects.Project getProject() { return this.project; }
     public void setProject(com.zzw.github.graphql.schema.objects.Project project) { this.project = project; }
+
+    @Description("The semantic purpose of the column")
+    private com.zzw.github.graphql.schema.enums.ProjectColumnPurpose purpose;
+    public com.zzw.github.graphql.schema.enums.ProjectColumnPurpose getPurpose() { return this.purpose; }
+    public void setPurpose(com.zzw.github.graphql.schema.enums.ProjectColumnPurpose purpose) { this.purpose = purpose; }
 
     @NonNull("!")
     @Description("The HTTP path for this project column")

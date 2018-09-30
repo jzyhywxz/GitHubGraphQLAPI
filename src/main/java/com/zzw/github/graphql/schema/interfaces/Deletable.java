@@ -17,8 +17,6 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 })
 @Description("Entities that can be deleted.")
 public interface Deletable {
-    @NonNull("!")
-    @Description("Check if the current viewer can delete this object.")
     public com.zzw.github.graphql.schema.scalars.Boolean getViewerCanDelete();
     public void setViewerCanDelete(com.zzw.github.graphql.schema.scalars.Boolean viewerCanDelete);
 }

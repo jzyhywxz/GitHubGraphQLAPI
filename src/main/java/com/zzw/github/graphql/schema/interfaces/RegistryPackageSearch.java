@@ -12,7 +12,6 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 })
 @Description("Represents an interface to search packages on an object.")
 public interface RegistryPackageSearch {
-    @NonNull("!")
     public com.zzw.github.graphql.schema.scalars.ID getId();
     public void setId(com.zzw.github.graphql.schema.scalars.ID id);
 }

@@ -39,6 +39,12 @@ public class ProjectCard extends com.zzw.github.graphql.schema.Metadata implemen
     public com.zzw.github.graphql.schema.scalars.ID getId() { return this.id; }
     public void setId(com.zzw.github.graphql.schema.scalars.ID id) { this.id = id; }
 
+    @NonNull("!")
+    @Description("Whether the card is archived")
+    private com.zzw.github.graphql.schema.scalars.Boolean isArchived;
+    public com.zzw.github.graphql.schema.scalars.Boolean getIsArchived() { return this.isArchived; }
+    public void setIsArchived(com.zzw.github.graphql.schema.scalars.Boolean isArchived) { this.isArchived = isArchived; }
+
     @Description("The card note")
     private com.zzw.github.graphql.schema.scalars.String note;
     public com.zzw.github.graphql.schema.scalars.String getNote() { return this.note; }

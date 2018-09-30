@@ -13,7 +13,7 @@ public class MergedEvent extends com.zzw.github.graphql.schema.Metadata implemen
     public com.zzw.github.graphql.schema.interfaces.Actor getActor() { return this.actor; }
     public void setActor(com.zzw.github.graphql.schema.interfaces.Actor actor) { this.actor = actor; }
 
-    @Description("Identifies the commit associated with the ")
+    @Description("Identifies the commit associated with the merge event.")
     private com.zzw.github.graphql.schema.objects.Commit commit;
     public com.zzw.github.graphql.schema.objects.Commit getCommit() { return this.commit; }
     public void setCommit(com.zzw.github.graphql.schema.objects.Commit commit) { this.commit = commit; }
@@ -29,13 +29,13 @@ public class MergedEvent extends com.zzw.github.graphql.schema.Metadata implemen
     public com.zzw.github.graphql.schema.scalars.ID getId() { return this.id; }
     public void setId(com.zzw.github.graphql.schema.scalars.ID id) { this.id = id; }
 
-    @Description("Identifies the Ref associated with the ")
+    @Description("Identifies the Ref associated with the merge event.")
     private com.zzw.github.graphql.schema.objects.Ref mergeRef;
     public com.zzw.github.graphql.schema.objects.Ref getMergeRef() { return this.mergeRef; }
     public void setMergeRef(com.zzw.github.graphql.schema.objects.Ref mergeRef) { this.mergeRef = mergeRef; }
 
     @NonNull("!")
-    @Description("Identifies the name of the Ref associated with the ")
+    @Description("Identifies the name of the Ref associated with the merge event.")
     private com.zzw.github.graphql.schema.scalars.String mergeRefName;
     public com.zzw.github.graphql.schema.scalars.String getMergeRefName() { return this.mergeRefName; }
     public void setMergeRefName(com.zzw.github.graphql.schema.scalars.String mergeRefName) { this.mergeRefName = mergeRefName; }

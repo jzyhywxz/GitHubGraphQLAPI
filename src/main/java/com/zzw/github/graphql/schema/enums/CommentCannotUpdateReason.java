@@ -9,13 +9,13 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible errors that will prevent a user from updating a comment.")
 public enum CommentCannotUpdateReason {
     @Description("You must be the author or have write access to this repository to update this comment.")
-     INSUFFICIENT_ACCESS,
+    INSUFFICIENT_ACCESS,
     @Description("Unable to create comment because issue is locked.")
-     LOCKED,
+    LOCKED,
     @Description("You must be logged in to update this comment.")
-     LOGIN_REQUIRED,
+    LOGIN_REQUIRED,
     @Description("Repository is under maintenance.")
-     MAINTENANCE,
+    MAINTENANCE,
     @Description("At least one email address must be verified to update this comment.")
-     VERIFIED_EMAIL_REQUIRED,
+    VERIFIED_EMAIL_REQUIRED,
 }

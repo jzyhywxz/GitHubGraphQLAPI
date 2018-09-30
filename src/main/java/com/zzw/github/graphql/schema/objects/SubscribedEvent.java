@@ -6,7 +6,7 @@ import com.zzw.github.graphql.schema.annotations.Description;
 import com.zzw.github.graphql.schema.annotations.ImplementedBy;
 import com.zzw.github.graphql.schema.annotations.NonNull;
 
-@Description("Represents a 'subscribed' event on a given .")
+@Description("Represents a 'subscribed' event on a given Subscribable.")
 public class SubscribedEvent extends com.zzw.github.graphql.schema.Metadata implements com.zzw.github.graphql.schema.interfaces.Node {
     @Description("Identifies the actor who performed the event.")
     private com.zzw.github.graphql.schema.interfaces.Actor actor;

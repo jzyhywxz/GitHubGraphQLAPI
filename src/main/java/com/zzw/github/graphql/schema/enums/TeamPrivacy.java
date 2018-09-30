@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible team privacy values.")
 public enum TeamPrivacy {
     @Description("A secret team can only be seen by its members.")
-     SECRET,
+    SECRET,
     @Description("A visible team can be seen and @mentioned by every member of the organization.")
-     VISIBLE,
+    VISIBLE,
 }

@@ -9,11 +9,11 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible reasons a given repository could be in a locked state.")
 public enum RepositoryLockReason {
     @Description("The repository is locked due to a billing related reason.")
-     BILLING,
+    BILLING,
     @Description("The repository is locked due to a migration.")
-     MIGRATING,
+    MIGRATING,
     @Description("The repository is locked due to a move.")
-     MOVING,
+    MOVING,
     @Description("The repository is locked due to a rename.")
-     RENAME,
+    RENAME,
 }

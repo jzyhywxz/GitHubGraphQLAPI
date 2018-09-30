@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible states of a milestone.")
 public enum MilestoneState {
     @Description("A milestone that has been closed.")
-     CLOSED,
+    CLOSED,
     @Description("A milestone that is still open.")
-     OPEN,
+    OPEN,
 }

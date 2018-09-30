@@ -9,13 +9,13 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The reason a repository is listed as 'contributed'.")
 public enum RepositoryContributionType {
     @Description("Created a commit")
-     COMMIT,
+    COMMIT,
     @Description("Created an issue")
-     ISSUE,
+    ISSUE,
     @Description("Created a pull request")
-     PULL_REQUEST,
+    PULL_REQUEST,
     @Description("Reviewed a pull request")
-     PULL_REQUEST_REVIEW,
+    PULL_REQUEST_REVIEW,
     @Description("Created the repository")
-     REPOSITORY,
+    REPOSITORY,
 }

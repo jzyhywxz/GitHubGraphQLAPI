@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which issue connections can be ordered.")
 public enum IssueOrderField {
     @Description("Order issues by comment count")
-     COMMENTS,
+    COMMENTS,
     @Description("Order issues by creation time")
-     CREATED_AT,
+    CREATED_AT,
     @Description("Order issues by update time")
-     UPDATED_AT,
+    UPDATED_AT,
 }

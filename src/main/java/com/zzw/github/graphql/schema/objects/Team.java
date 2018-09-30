@@ -11,8 +11,8 @@ public class Team extends com.zzw.github.graphql.schema.Metadata implements com.
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("A list of teams that are ancestors of this team.")
@@ -23,11 +23,11 @@ public class Team extends com.zzw.github.graphql.schema.Metadata implements com.
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="immediateOnly", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Whether to list immediate child teams or all descendant child teams.")),
-        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamOrder", nonNull=@NonNull(""), description=@Description("The default value is")),
-        @Argument(name="userLogins", type="com.zzw.github.graphql.schema.scalars.String[]", nonNull=@NonNull("[!]"), description=@Description(".")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="immediateOnly", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("Whether to list immediate child teams or all descendant child teams.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamOrder", nonNull=@NonNull(""), description=@Description("Order for connection")),
+        @Argument(name="userLogins", type="com.zzw.github.graphql.schema.scalars.String[]", nonNull=@NonNull("[!]"), description=@Description("User logins to filter by")),
     })
     @NonNull("!")
     @Description("List of child teams belonging to this team")
@@ -38,10 +38,10 @@ public class Team extends com.zzw.github.graphql.schema.Metadata implements com.
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="isPinned", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("If provided, filters discussions according to whether or not they are pinned.")),
-        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamDiscussionOrder", nonNull=@NonNull(""), description=@Description("Returns the last")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="isPinned", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("If provided, filters discussions according to whether or not they are pinned.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamDiscussionOrder", nonNull=@NonNull(""), description=@Description("Order for connection")),
     })
     @NonNull("!")
     @Description("A list of team discussions.")
@@ -52,8 +52,8 @@ public class Team extends com.zzw.github.graphql.schema.Metadata implements com.
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @Description("A list of pending invitations for users to this team")
     private com.zzw.github.graphql.schema.objects.OrganizationInvitationConnection invitations;
@@ -63,12 +63,12 @@ public class Team extends com.zzw.github.graphql.schema.Metadata implements com.
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="membership", type="com.zzw.github.graphql.schema.enums.TeamMembershipType", nonNull=@NonNull(""), description=@Description("Returns the last")),
-        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamMemberOrder", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="query", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Filter by membership type")),
-        @Argument(name="role", type="com.zzw.github.graphql.schema.enums.TeamMemberRole", nonNull=@NonNull(""), description=@Description("The default value is")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="membership", type="com.zzw.github.graphql.schema.enums.TeamMembershipType", nonNull=@NonNull(""), description=@Description("Filter by membership type")),
+        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamMemberOrder", nonNull=@NonNull(""), description=@Description("Order for the connection.")),
+        @Argument(name="query", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("The search string to look for.")),
+        @Argument(name="role", type="com.zzw.github.graphql.schema.enums.TeamMemberRole", nonNull=@NonNull(""), description=@Description("Filter by team member role")),
     })
     @NonNull("!")
     @Description("A list of users who are members of this team.")
@@ -79,10 +79,10 @@ public class Team extends com.zzw.github.graphql.schema.Metadata implements com.
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamRepositoryOrder", nonNull=@NonNull(""), description=@Description("Returns the last")),
-        @Argument(name="query", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamRepositoryOrder", nonNull=@NonNull(""), description=@Description("Order for the connection.")),
+        @Argument(name="query", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("The search string to look for.")),
     })
     @NonNull("!")
     @Description("A list of repositories this team has access to.")

@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The role of a user on a team.")
 public enum TeamRole {
     @Description("User has admin rights on the team.")
-     ADMIN,
+    ADMIN,
     @Description("User is a member of the team.")
-     MEMBER,
+    MEMBER,
 }

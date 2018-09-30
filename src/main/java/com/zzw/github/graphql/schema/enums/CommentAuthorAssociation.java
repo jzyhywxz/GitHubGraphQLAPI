@@ -9,17 +9,17 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("A comment author association with repository.")
 public enum CommentAuthorAssociation {
     @Description("Author has been invited to collaborate on the repository.")
-     COLLABORATOR,
+    COLLABORATOR,
     @Description("Author has previously committed to the repository.")
-     CONTRIBUTOR,
+    CONTRIBUTOR,
     @Description("Author has not previously committed to GitHub.")
-     FIRST_TIMER,
+    FIRST_TIMER,
     @Description("Author has not previously committed to the repository.")
-     FIRST_TIME_CONTRIBUTOR,
+    FIRST_TIME_CONTRIBUTOR,
     @Description("Author is a member of the organization that owns the repository.")
-     MEMBER,
+    MEMBER,
     @Description("Author has no association with the repository.")
-     NONE,
+    NONE,
     @Description("Author is the owner of the repository.")
-     OWNER,
+    OWNER,
 }

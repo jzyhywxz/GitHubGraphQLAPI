@@ -9,11 +9,11 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible events to perform on a pull request review.")
 public enum PullRequestReviewEvent {
     @Description("Submit feedback and approve merging these changes.")
-     APPROVE,
+    APPROVE,
     @Description("Submit general feedback without explicit approval.")
-     COMMENT,
+    COMMENT,
     @Description("Dismiss review so it now longer effects merging.")
-     DISMISS,
+    DISMISS,
     @Description("Submit feedback that must be addressed before merging.")
-     REQUEST_CHANGES,
+    REQUEST_CHANGES,
 }

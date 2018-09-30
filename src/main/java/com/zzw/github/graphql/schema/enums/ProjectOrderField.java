@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which project connections can be ordered.")
 public enum ProjectOrderField {
     @Description("Order projects by creation time")
-     CREATED_AT,
+    CREATED_AT,
     @Description("Order projects by name")
-     NAME,
+    NAME,
     @Description("Order projects by update time")
-     UPDATED_AT,
+    UPDATED_AT,
 }

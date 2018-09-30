@@ -43,7 +43,7 @@ public class GpgSignature extends com.zzw.github.graphql.schema.Metadata impleme
     public void setSigner(com.zzw.github.graphql.schema.objects.User signer) { this.signer = signer; }
 
     @NonNull("!")
-    @Description("The state of this signature. ")
+    @Description("The state of this signature. VALID if signature is valid and verified by GitHub, otherwise represents reason why signature is considered invalid.")
     private com.zzw.github.graphql.schema.enums.GitSignatureState state;
     public com.zzw.github.graphql.schema.enums.GitSignatureState getState() { return this.state; }
     public void setState(com.zzw.github.graphql.schema.enums.GitSignatureState state) { this.state = state; }

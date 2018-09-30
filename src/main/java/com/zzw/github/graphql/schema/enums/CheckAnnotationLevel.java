@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Represents an annotation's information level.")
 public enum CheckAnnotationLevel {
     @Description("An annotation indicating an inescapable error.")
-     FAILURE,
+    FAILURE,
     @Description("An annotation indicating some information.")
-     NOTICE,
+    NOTICE,
     @Description("An annotation indicating an ignorable error.")
-     WARNING,
+    WARNING,
 }

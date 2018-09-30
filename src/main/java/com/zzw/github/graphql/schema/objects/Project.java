@@ -11,8 +11,8 @@ public class Project extends com.zzw.github.graphql.schema.Metadata implements c
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("List of columns in the project")
@@ -22,9 +22,10 @@ public class Project extends com.zzw.github.graphql.schema.Metadata implements c
 
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
+        @Argument(name="archivedStates", type="com.zzw.github.graphql.schema.enums.ProjectCardArchivedState[]", nonNull=@NonNull(""), description=@Description("A list of archived states to filter the cards by")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("List of pending cards in this project")
@@ -44,7 +45,7 @@ public class Project extends com.zzw.github.graphql.schema.Metadata implements c
     public void setBodyHTML(com.zzw.github.graphql.schema.scalars.HTML bodyHTML) { this.bodyHTML = bodyHTML; }
 
     @NonNull("!")
-    @Description(" if the object is closed (definition of closed may depend on type)")
+    @Description("true if the object is closed (definition of closed may depend on type)")
     private com.zzw.github.graphql.schema.scalars.Boolean closed;
     public com.zzw.github.graphql.schema.scalars.Boolean getClosed() { return this.closed; }
     public void setClosed(com.zzw.github.graphql.schema.scalars.Boolean closed) { this.closed = closed; }

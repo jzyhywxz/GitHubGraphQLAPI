@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Represents information about the GitHub instance.")
 public class GitHubMetadata extends com.zzw.github.graphql.schema.Metadata {
     @NonNull("!")
-    @Description("Returns a String that's a SHA of ")
+    @Description("Returns a String that's a SHA of github-services")
     private com.zzw.github.graphql.schema.scalars.GitObjectID gitHubServicesSha;
     public com.zzw.github.graphql.schema.scalars.GitObjectID getGitHubServicesSha() { return this.gitHubServicesSha; }
     public void setGitHubServicesSha(com.zzw.github.graphql.schema.scalars.GitObjectID gitHubServicesSha) { this.gitHubServicesSha = gitHubServicesSha; }

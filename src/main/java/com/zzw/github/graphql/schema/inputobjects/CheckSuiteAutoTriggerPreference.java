@@ -15,7 +15,7 @@ public class CheckSuiteAutoTriggerPreference {
     public void setAppId(com.zzw.github.graphql.schema.scalars.ID appId) { this.appId = appId; }
 
     @NonNull("!")
-    @Description("Set to ")
+    @Description("Set to true to enable automatic creation of CheckSuite events upon pushes to the repository.")
     private com.zzw.github.graphql.schema.scalars.Boolean setting;
     public com.zzw.github.graphql.schema.scalars.Boolean getSetting() { return this.setting; }
     public void setSetting(com.zzw.github.graphql.schema.scalars.Boolean setting) { this.setting = setting; }

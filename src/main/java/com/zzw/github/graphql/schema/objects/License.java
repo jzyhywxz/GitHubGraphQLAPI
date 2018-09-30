@@ -60,7 +60,7 @@ public class License extends com.zzw.github.graphql.schema.Metadata implements c
     public void setLimitations(com.zzw.github.graphql.schema.objects.LicenseRule[] limitations) { this.limitations = limitations; }
 
     @NonNull("!")
-    @Description("The license full name specified by ")
+    @Description("The license full name specified by https://spdx.org/licenses")
     private com.zzw.github.graphql.schema.scalars.String name;
     public com.zzw.github.graphql.schema.scalars.String getName() { return this.name; }
     public void setName(com.zzw.github.graphql.schema.scalars.String name) { this.name = name; }
@@ -82,12 +82,12 @@ public class License extends com.zzw.github.graphql.schema.Metadata implements c
     public com.zzw.github.graphql.schema.scalars.Boolean getPseudoLicense() { return this.pseudoLicense; }
     public void setPseudoLicense(com.zzw.github.graphql.schema.scalars.Boolean pseudoLicense) { this.pseudoLicense = pseudoLicense; }
 
-    @Description("Short identifier specified by ")
+    @Description("Short identifier specified by https://spdx.org/licenses")
     private com.zzw.github.graphql.schema.scalars.String spdxId;
     public com.zzw.github.graphql.schema.scalars.String getSpdxId() { return this.spdxId; }
     public void setSpdxId(com.zzw.github.graphql.schema.scalars.String spdxId) { this.spdxId = spdxId; }
 
-    @Description("URL to the license on ")
+    @Description("URL to the license on https://choosealicense.com")
     private com.zzw.github.graphql.schema.scalars.URI url;
     public com.zzw.github.graphql.schema.scalars.URI getUrl() { return this.url; }
     public void setUrl(com.zzw.github.graphql.schema.scalars.URI url) { this.url = url; }

@@ -28,4 +28,15 @@ public class RemovedFromProjectEvent extends com.zzw.github.graphql.schema.Metad
     private com.zzw.github.graphql.schema.scalars.ID id;
     public com.zzw.github.graphql.schema.scalars.ID getId() { return this.id; }
     public void setId(com.zzw.github.graphql.schema.scalars.ID id) { this.id = id; }
+
+    @Description("Project referenced by event.")
+    private com.zzw.github.graphql.schema.objects.Project project;
+    public com.zzw.github.graphql.schema.objects.Project getProject() { return this.project; }
+    public void setProject(com.zzw.github.graphql.schema.objects.Project project) { this.project = project; }
+
+    @NonNull("!")
+    @Description("Column name referenced by this project event.")
+    private com.zzw.github.graphql.schema.scalars.String projectColumnName;
+    public com.zzw.github.graphql.schema.scalars.String getProjectColumnName() { return this.projectColumnName; }
+    public void setProjectColumnName(com.zzw.github.graphql.schema.scalars.String projectColumnName) { this.projectColumnName = projectColumnName; }
 }

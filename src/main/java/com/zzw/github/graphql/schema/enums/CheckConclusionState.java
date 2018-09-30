@@ -9,15 +9,15 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible states for a check suite or run conclusion.")
 public enum CheckConclusionState {
     @Description("The check suite or run requires action.")
-     ACTION_REQUIRED,
+    ACTION_REQUIRED,
     @Description("The check suite or run has been cancelled.")
-     CANCELLED,
+    CANCELLED,
     @Description("The check suite or run has failed.")
-     FAILURE,
+    FAILURE,
     @Description("The check suite or run was neutral.")
-     NEUTRAL,
+    NEUTRAL,
     @Description("The check suite or run has succeeded.")
-     SUCCESS,
+    SUCCESS,
     @Description("The check suite or run has timed out.")
-     TIMED_OUT,
+    TIMED_OUT,
 }

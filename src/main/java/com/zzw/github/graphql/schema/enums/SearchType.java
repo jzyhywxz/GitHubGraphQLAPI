@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Represents the individual results of a search.")
 public enum SearchType {
     @Description("Returns results matching issues in repositories.")
-     ISSUE,
+    ISSUE,
     @Description("Returns results matching repositories.")
-     REPOSITORY,
+    REPOSITORY,
     @Description("Returns results matching users and organizations on GitHub.")
-     USER,
+    USER,
 }

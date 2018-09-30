@@ -11,8 +11,8 @@ public class Organization extends com.zzw.github.graphql.schema.Metadata impleme
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("A list of users who are members of this organization.")
@@ -22,13 +22,13 @@ public class Organization extends com.zzw.github.graphql.schema.Metadata impleme
 
     @Arguments({
         @Argument(name="affiliations", type="com.zzw.github.graphql.schema.enums.RepositoryAffiliation[]", nonNull=@NonNull(""), description=@Description("Affiliation options for repositories returned from the connection")),
-        @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("The default value is")),
-        @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description(".")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
-        @Argument(name="isLocked", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.RepositoryOrder", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="privacy", type="com.zzw.github.graphql.schema.enums.RepositoryPrivacy", nonNull=@NonNull(""), description=@Description("If non-null, filters repositories according to whether they have been locked")),
+        @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
+        @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="isLocked", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("If non-null, filters repositories according to whether they have been locked")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.RepositoryOrder", nonNull=@NonNull(""), description=@Description("Ordering options for repositories returned from the connection")),
+        @Argument(name="privacy", type="com.zzw.github.graphql.schema.enums.RepositoryPrivacy", nonNull=@NonNull(""), description=@Description("If non-null, filters repositories according to privacy")),
     })
     @NonNull("!")
     @Description("A list of repositories this user has pinned to their profile")
@@ -39,11 +39,11 @@ public class Organization extends com.zzw.github.graphql.schema.Metadata impleme
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.ProjectOrder", nonNull=@NonNull(""), description=@Description("Returns the last")),
-        @Argument(name="search", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="states", type="com.zzw.github.graphql.schema.enums.ProjectState[]", nonNull=@NonNull("[!]"), description=@Description("Ordering options for projects returned from the connection")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.ProjectOrder", nonNull=@NonNull(""), description=@Description("Ordering options for projects returned from the connection")),
+        @Argument(name="search", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Query to search projects by, currently only searching by name.")),
+        @Argument(name="states", type="com.zzw.github.graphql.schema.enums.ProjectState[]", nonNull=@NonNull("[!]"), description=@Description("A list of states to filter the projects by.")),
     })
     @NonNull("!")
     @Description("A list of projects under the owner.")
@@ -53,14 +53,14 @@ public class Organization extends com.zzw.github.graphql.schema.Metadata impleme
 
     @Arguments({
         @Argument(name="affiliations", type="com.zzw.github.graphql.schema.enums.RepositoryAffiliation[]", nonNull=@NonNull(""), description=@Description("Affiliation options for repositories returned from the connection")),
-        @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("The default value is")),
-        @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description(".")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
-        @Argument(name="isFork", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="isLocked", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.RepositoryOrder", nonNull=@NonNull(""), description=@Description("If non-null, filters repositories according to whether they are forks of another repository")),
-        @Argument(name="privacy", type="com.zzw.github.graphql.schema.enums.RepositoryPrivacy", nonNull=@NonNull(""), description=@Description("If non-null, filters repositories according to whether they have been locked")),
+        @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
+        @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="isFork", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("If non-null, filters repositories according to whether they are forks of another repository")),
+        @Argument(name="isLocked", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("If non-null, filters repositories according to whether they have been locked")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.RepositoryOrder", nonNull=@NonNull(""), description=@Description("Ordering options for repositories returned from the connection")),
+        @Argument(name="privacy", type="com.zzw.github.graphql.schema.enums.RepositoryPrivacy", nonNull=@NonNull(""), description=@Description("If non-null, filters repositories according to privacy")),
     })
     @NonNull("!")
     @Description("A list of repositories that the user owns.")
@@ -71,15 +71,15 @@ public class Organization extends com.zzw.github.graphql.schema.Metadata impleme
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="ldapMapped", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("Returns the last")),
-        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamOrder", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="privacy", type="com.zzw.github.graphql.schema.enums.TeamPrivacy", nonNull=@NonNull(""), description=@Description("If true, filters teams that are mapped to an LDAP Group (Enterprise only)")),
-        @Argument(name="query", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Ordering options for teams returned from the connection")),
-        @Argument(name="role", type="com.zzw.github.graphql.schema.enums.TeamRole", nonNull=@NonNull(""), description=@Description("If non-null, filters teams according to privacy")),
-        @Argument(name="rootTeamsOnly", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("If non-null, filters teams with query on team name and team slug")),
-        @Argument(name="userLogins", type="com.zzw.github.graphql.schema.scalars.String[]", nonNull=@NonNull("[!]"), description=@Description("If non-null, filters teams according to whether the viewer is an admin or member on team")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="ldapMapped", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("If true, filters teams that are mapped to an LDAP Group (Enterprise only)")),
+        @Argument(name="orderBy", type="com.zzw.github.graphql.schema.inputobjects.TeamOrder", nonNull=@NonNull(""), description=@Description("Ordering options for teams returned from the connection")),
+        @Argument(name="privacy", type="com.zzw.github.graphql.schema.enums.TeamPrivacy", nonNull=@NonNull(""), description=@Description("If non-null, filters teams according to privacy")),
+        @Argument(name="query", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("If non-null, filters teams with query on team name and team slug")),
+        @Argument(name="role", type="com.zzw.github.graphql.schema.enums.TeamRole", nonNull=@NonNull(""), description=@Description("If non-null, filters teams according to whether the viewer is an admin or member on team")),
+        @Argument(name="rootTeamsOnly", type="com.zzw.github.graphql.schema.scalars.Boolean", nonNull=@NonNull(""), description=@Description("If true, restrict to only root teams")),
+        @Argument(name="userLogins", type="com.zzw.github.graphql.schema.scalars.String[]", nonNull=@NonNull("[!]"), description=@Description("User logins to filter by")),
     })
     @NonNull("!")
     @Description("A list of teams in this organization.")
@@ -183,8 +183,13 @@ public class Organization extends com.zzw.github.graphql.schema.Metadata impleme
     public com.zzw.github.graphql.schema.objects.Repository getRepository() { return this.repository; }
     public void setRepository(com.zzw.github.graphql.schema.objects.Repository repository) { this.repository = repository; }
 
+    @Description("When true the organization requires all members, billing managers, and outside collaborators to enable two-factor authentication.")
+    private com.zzw.github.graphql.schema.scalars.Boolean requiresTwoFactorAuthentication;
+    public com.zzw.github.graphql.schema.scalars.Boolean getRequiresTwoFactorAuthentication() { return this.requiresTwoFactorAuthentication; }
+    public void setRequiresTwoFactorAuthentication(com.zzw.github.graphql.schema.scalars.Boolean requiresTwoFactorAuthentication) { this.requiresTwoFactorAuthentication = requiresTwoFactorAuthentication; }
+
     @NonNull("!")
-    @Description("The HTTP path for this user")
+    @Description("The HTTP path for this organization.")
     private com.zzw.github.graphql.schema.scalars.URI resourcePath;
     public com.zzw.github.graphql.schema.scalars.URI getResourcePath() { return this.resourcePath; }
     public void setResourcePath(com.zzw.github.graphql.schema.scalars.URI resourcePath) { this.resourcePath = resourcePath; }
@@ -215,7 +220,7 @@ public class Organization extends com.zzw.github.graphql.schema.Metadata impleme
     public void setTeamsUrl(com.zzw.github.graphql.schema.scalars.URI teamsUrl) { this.teamsUrl = teamsUrl; }
 
     @NonNull("!")
-    @Description("The HTTP URL for this user")
+    @Description("The HTTP URL for this organization.")
     private com.zzw.github.graphql.schema.scalars.URI url;
     public com.zzw.github.graphql.schema.scalars.URI getUrl() { return this.url; }
     public void setUrl(com.zzw.github.graphql.schema.scalars.URI url) { this.url = url; }

@@ -20,8 +20,6 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 })
 @Description("Entities that can be updated.")
 public interface Updatable {
-    @NonNull("!")
-    @Description("Check if the current viewer can update this object.")
     public com.zzw.github.graphql.schema.scalars.Boolean getViewerCanUpdate();
     public void setViewerCanUpdate(com.zzw.github.graphql.schema.scalars.Boolean viewerCanUpdate);
 }

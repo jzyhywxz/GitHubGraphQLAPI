@@ -29,6 +29,12 @@ public class App extends com.zzw.github.graphql.schema.Metadata implements com.z
     public com.zzw.github.graphql.schema.scalars.ID getId() { return this.id; }
     public void setId(com.zzw.github.graphql.schema.scalars.ID id) { this.id = id; }
 
+    @NonNull("!")
+    @Description("The hex color code, without the leading '#', for the logo background.")
+    private com.zzw.github.graphql.schema.scalars.String logoBackgroundColor;
+    public com.zzw.github.graphql.schema.scalars.String getLogoBackgroundColor() { return this.logoBackgroundColor; }
+    public void setLogoBackgroundColor(com.zzw.github.graphql.schema.scalars.String logoBackgroundColor) { this.logoBackgroundColor = logoBackgroundColor; }
+
     @Arguments({
         @Argument(name="size", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("The size of the resulting image.")),
     })

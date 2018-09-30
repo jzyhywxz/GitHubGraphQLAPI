@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible states of a pull request.")
 public enum PullRequestState {
     @Description("A pull request that has been closed without being merged.")
-     CLOSED,
+    CLOSED,
     @Description("A pull request that has been closed by being merged.")
-     MERGED,
+    MERGED,
     @Description("A pull request that is still open.")
-     OPEN,
+    OPEN,
 }

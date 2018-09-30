@@ -9,13 +9,13 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which repository connections can be ordered.")
 public enum RepositoryOrderField {
     @Description("Order repositories by creation time")
-     CREATED_AT,
+    CREATED_AT,
     @Description("Order repositories by name")
-     NAME,
+    NAME,
     @Description("Order repositories by push time")
-     PUSHED_AT,
+    PUSHED_AT,
     @Description("Order repositories by number of stargazers")
-     STARGAZERS,
+    STARGAZERS,
     @Description("Order repositories by update time")
-     UPDATED_AT,
+    UPDATED_AT,
 }

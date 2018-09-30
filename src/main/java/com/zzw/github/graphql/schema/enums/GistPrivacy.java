@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The privacy of a Gist")
 public enum GistPrivacy {
     @Description("Gists that are public and secret")
-     ALL,
+    ALL,
     @Description("Public")
-     PUBLIC,
+    PUBLIC,
     @Description("Secret")
-     SECRET,
+    SECRET,
 }

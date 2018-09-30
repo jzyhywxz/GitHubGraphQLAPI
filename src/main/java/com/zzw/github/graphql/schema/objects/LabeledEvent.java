@@ -31,7 +31,7 @@ public class LabeledEvent extends com.zzw.github.graphql.schema.Metadata impleme
     public void setLabel(com.zzw.github.graphql.schema.objects.Label label) { this.label = label; }
 
     @NonNull("!")
-    @Description("Identifies the ")
+    @Description("Identifies the Labelable associated with the event.")
     private com.zzw.github.graphql.schema.interfaces.Labelable labelable;
     public com.zzw.github.graphql.schema.interfaces.Labelable getLabelable() { return this.labelable; }
     public void setLabelable(com.zzw.github.graphql.schema.interfaces.Labelable labelable) { this.labelable = labelable; }

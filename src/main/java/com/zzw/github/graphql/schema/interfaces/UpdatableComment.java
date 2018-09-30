@@ -19,8 +19,6 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 })
 @Description("Comments that can be updated.")
 public interface UpdatableComment {
-    @NonNull("[!]!")
-    @Description("Reasons why the current viewer can not update this comment.")
     public com.zzw.github.graphql.schema.enums.CommentCannotUpdateReason[] getViewerCannotUpdateReasons();
     public void setViewerCannotUpdateReasons(com.zzw.github.graphql.schema.enums.CommentCannotUpdateReason[] viewerCannotUpdateReasons);
 }

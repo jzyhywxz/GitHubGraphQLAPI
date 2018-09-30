@@ -6,7 +6,7 @@ import com.zzw.github.graphql.schema.annotations.Description;
 import com.zzw.github.graphql.schema.annotations.ImplementedBy;
 import com.zzw.github.graphql.schema.annotations.NonNull;
 
-@Description("Represents  or  values.")
+@Description("Represents true or false values.")
 public class Boolean {
     private boolean value;
     public Boolean(boolean value) { this.value = value; }

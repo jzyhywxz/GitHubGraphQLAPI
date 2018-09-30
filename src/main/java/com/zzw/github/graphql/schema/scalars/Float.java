@@ -6,7 +6,7 @@ import com.zzw.github.graphql.schema.annotations.Description;
 import com.zzw.github.graphql.schema.annotations.ImplementedBy;
 import com.zzw.github.graphql.schema.annotations.NonNull;
 
-@Description("Represents signed double-precision fractional values as specified by .")
+@Description("Represents signed double-precision fractional values as specified by IEEE 754.")
 public class Float {
     private double value;
     public Float(double value) { this.value = value; }

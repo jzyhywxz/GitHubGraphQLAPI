@@ -9,15 +9,15 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Emojis that can be attached to Issues, Pull Requests and Comments.")
 public enum ReactionContent {
     @Description("Represents the 😕 emoji.")
-     CONFUSED,
+    CONFUSED,
     @Description("Represents the ❤️ emoji.")
-     HEART,
+    HEART,
     @Description("Represents the 🎉 emoji.")
-     HOORAY,
+    HOORAY,
     @Description("Represents the 😄 emoji.")
-     LAUGH,
+    LAUGH,
     @Description("Represents the 👎 emoji.")
-     THUMBS_DOWN,
+    THUMBS_DOWN,
     @Description("Represents the 👍 emoji.")
-     THUMBS_UP,
+    THUMBS_UP,
 }

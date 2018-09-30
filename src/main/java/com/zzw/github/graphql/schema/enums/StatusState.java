@@ -9,13 +9,13 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible commit status states.")
 public enum StatusState {
     @Description("Status is errored.")
-     ERROR,
+    ERROR,
     @Description("Status is expected.")
-     EXPECTED,
+    EXPECTED,
     @Description("Status is failing.")
-     FAILURE,
+    FAILURE,
     @Description("Status is pending.")
-     PENDING,
+    PENDING,
     @Description("Status is successful.")
-     SUCCESS,
+    SUCCESS,
 }

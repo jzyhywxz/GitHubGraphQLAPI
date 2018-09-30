@@ -9,17 +9,17 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Detailed status information about a pull request merge.")
 public enum MergeStateStatus {
     @Description("The head ref is out of date.")
-     BEHIND,
+    BEHIND,
     @Description("The merge is blocked.")
-     BLOCKED,
+    BLOCKED,
     @Description("Mergeable and passing commit status.")
-     CLEAN,
+    CLEAN,
     @Description("The merge commit cannot be cleanly created.")
-     DIRTY,
+    DIRTY,
     @Description("Mergeable with passing commit status and pre-recieve hooks.")
-     HAS_HOOKS,
+    HAS_HOOKS,
     @Description("The state cannot currently be determined.")
-     UNKNOWN,
+    UNKNOWN,
     @Description("Mergeable with non-passing commit status.")
-     UNSTABLE,
+    UNSTABLE,
 }

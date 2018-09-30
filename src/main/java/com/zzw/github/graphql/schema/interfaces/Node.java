@@ -14,6 +14,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
         "com.zzw.github.graphql.schema.objects.BaseRefForcePushedEvent",
         "com.zzw.github.graphql.schema.objects.Blob",
         "com.zzw.github.graphql.schema.objects.Bot",
+        "com.zzw.github.graphql.schema.objects.BranchProtectionRule",
         "com.zzw.github.graphql.schema.objects.CheckRun",
         "com.zzw.github.graphql.schema.objects.CheckSuite",
         "com.zzw.github.graphql.schema.objects.ClosedEvent",
@@ -60,6 +61,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
         "com.zzw.github.graphql.schema.objects.PublicKey",
         "com.zzw.github.graphql.schema.objects.PullRequest",
         "com.zzw.github.graphql.schema.objects.PullRequestCommit",
+        "com.zzw.github.graphql.schema.objects.PullRequestCommitCommentThread",
         "com.zzw.github.graphql.schema.objects.PullRequestReview",
         "com.zzw.github.graphql.schema.objects.PullRequestReviewComment",
         "com.zzw.github.graphql.schema.objects.PullRequestReviewThread",
@@ -100,8 +102,6 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 })
 @Description("An object with an ID.")
 public interface Node {
-    @NonNull("!")
-    @Description("ID of the object.")
     public com.zzw.github.graphql.schema.scalars.ID getId();
     public void setId(com.zzw.github.graphql.schema.scalars.ID id);
 }

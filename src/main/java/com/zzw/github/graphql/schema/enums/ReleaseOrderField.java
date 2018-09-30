@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which release connections can be ordered.")
 public enum ReleaseOrderField {
     @Description("Order releases by creation time")
-     CREATED_AT,
+    CREATED_AT,
     @Description("Order releases alphabetically by name")
-     NAME,
+    NAME,
 }

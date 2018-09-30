@@ -9,5 +9,5 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which star connections can be ordered.")
 public enum StarOrderField {
     @Description("Allows ordering a list of stars by when they were created.")
-     STARRED_AT,
+    STARRED_AT,
 }

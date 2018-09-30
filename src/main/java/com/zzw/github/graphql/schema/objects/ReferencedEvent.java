@@ -6,7 +6,7 @@ import com.zzw.github.graphql.schema.annotations.Description;
 import com.zzw.github.graphql.schema.annotations.ImplementedBy;
 import com.zzw.github.graphql.schema.annotations.NonNull;
 
-@Description("Represents a 'referenced' event on a given .")
+@Description("Represents a 'referenced' event on a given ReferencedSubject.")
 public class ReferencedEvent extends com.zzw.github.graphql.schema.Metadata implements com.zzw.github.graphql.schema.interfaces.Node {
     @Description("Identifies the actor who performed the event.")
     private com.zzw.github.graphql.schema.interfaces.Actor actor;

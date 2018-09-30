@@ -6,10 +6,10 @@ import com.zzw.github.graphql.schema.annotations.Description;
 import com.zzw.github.graphql.schema.annotations.ImplementedBy;
 import com.zzw.github.graphql.schema.annotations.NonNull;
 
-@Description("Possible directions in which to order a list of items when provided an  argument.")
+@Description("Possible directions in which to order a list of items when provided an orderBy argument.")
 public enum OrderDirection {
-    @Description("Specifies an ascending order for a given  argument.")
-     ASC,
-    @Description("Specifies a descending order for a given  argument.")
-     DESC,
+    @Description("Specifies an ascending order for a given orderBy argument.")
+    ASC,
+    @Description("Specifies a descending order for a given orderBy argument.")
+    DESC,
 }

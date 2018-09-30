@@ -9,13 +9,13 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible states for a deployment status.")
 public enum DeploymentStatusState {
     @Description("The deployment experienced an error.")
-     ERROR,
+    ERROR,
     @Description("The deployment has failed.")
-     FAILURE,
+    FAILURE,
     @Description("The deployment is inactive.")
-     INACTIVE,
+    INACTIVE,
     @Description("The deployment is pending.")
-     PENDING,
+    PENDING,
     @Description("The deployment was successful.")
-     SUCCESS,
+    SUCCESS,
 }

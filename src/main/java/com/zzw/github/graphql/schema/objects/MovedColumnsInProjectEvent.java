@@ -28,4 +28,26 @@ public class MovedColumnsInProjectEvent extends com.zzw.github.graphql.schema.Me
     private com.zzw.github.graphql.schema.scalars.ID id;
     public com.zzw.github.graphql.schema.scalars.ID getId() { return this.id; }
     public void setId(com.zzw.github.graphql.schema.scalars.ID id) { this.id = id; }
+
+    @NonNull("!")
+    @Description("Column name the issue or pull request was moved from.")
+    private com.zzw.github.graphql.schema.scalars.String previousProjectColumnName;
+    public com.zzw.github.graphql.schema.scalars.String getPreviousProjectColumnName() { return this.previousProjectColumnName; }
+    public void setPreviousProjectColumnName(com.zzw.github.graphql.schema.scalars.String previousProjectColumnName) { this.previousProjectColumnName = previousProjectColumnName; }
+
+    @Description("Project referenced by event.")
+    private com.zzw.github.graphql.schema.objects.Project project;
+    public com.zzw.github.graphql.schema.objects.Project getProject() { return this.project; }
+    public void setProject(com.zzw.github.graphql.schema.objects.Project project) { this.project = project; }
+
+    @Description("Project card referenced by this project event.")
+    private com.zzw.github.graphql.schema.objects.ProjectCard projectCard;
+    public com.zzw.github.graphql.schema.objects.ProjectCard getProjectCard() { return this.projectCard; }
+    public void setProjectCard(com.zzw.github.graphql.schema.objects.ProjectCard projectCard) { this.projectCard = projectCard; }
+
+    @NonNull("!")
+    @Description("Column name the issue or pull request was moved to.")
+    private com.zzw.github.graphql.schema.scalars.String projectColumnName;
+    public com.zzw.github.graphql.schema.scalars.String getProjectColumnName() { return this.projectColumnName; }
+    public void setProjectColumnName(com.zzw.github.graphql.schema.scalars.String projectColumnName) { this.projectColumnName = projectColumnName; }
 }

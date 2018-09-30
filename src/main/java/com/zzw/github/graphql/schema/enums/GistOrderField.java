@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which gist connections can be ordered.")
 public enum GistOrderField {
     @Description("Order gists by creation time")
-     CREATED_AT,
+    CREATED_AT,
     @Description("Order gists by push time")
-     PUSHED_AT,
+    PUSHED_AT,
     @Description("Order gists by update time")
-     UPDATED_AT,
+    UPDATED_AT,
 }

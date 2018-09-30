@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Collaborators affiliation level with a subject.")
 public enum CollaboratorAffiliation {
     @Description("All collaborators the authenticated user can see.")
-     ALL,
+    ALL,
     @Description("All collaborators with permissions to an organization-owned subject, regardless of organization membership status.")
-     DIRECT,
+    DIRECT,
     @Description("All outside collaborators of an organization-owned subject.")
-     OUTSIDE,
+    OUTSIDE,
 }

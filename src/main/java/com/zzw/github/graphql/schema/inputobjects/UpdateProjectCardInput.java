@@ -13,6 +13,11 @@ public class UpdateProjectCardInput {
     public com.zzw.github.graphql.schema.scalars.String getClientMutationId() { return this.clientMutationId; }
     public void setClientMutationId(com.zzw.github.graphql.schema.scalars.String clientMutationId) { this.clientMutationId = clientMutationId; }
 
+    @Description("Whether or not the ProjectCard should be archived")
+    private com.zzw.github.graphql.schema.scalars.Boolean isArchived;
+    public com.zzw.github.graphql.schema.scalars.Boolean getIsArchived() { return this.isArchived; }
+    public void setIsArchived(com.zzw.github.graphql.schema.scalars.Boolean isArchived) { this.isArchived = isArchived; }
+
     @Description("The note of ProjectCard.")
     private com.zzw.github.graphql.schema.scalars.String note;
     public com.zzw.github.graphql.schema.scalars.String getNote() { return this.note; }

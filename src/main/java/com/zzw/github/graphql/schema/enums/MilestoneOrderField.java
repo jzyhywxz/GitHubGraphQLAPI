@@ -9,11 +9,11 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which milestone connections can be ordered.")
 public enum MilestoneOrderField {
     @Description("Order milestones by when they were created.")
-     CREATED_AT,
+    CREATED_AT,
     @Description("Order milestones by when they are due.")
-     DUE_DATE,
+    DUE_DATE,
     @Description("Order milestones by their number.")
-     NUMBER,
+    NUMBER,
     @Description("Order milestones by when they were last updated.")
-     UPDATED_AT,
+    UPDATED_AT,
 }

@@ -10,6 +10,6 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
         "com.zzw.github.graphql.schema.objects.Commit",
         "com.zzw.github.graphql.schema.objects.PullRequest",
 })
-@Description("The object which triggered a .")
+@Description("The object which triggered a ClosedEvent.")
 public interface Closer {
 }

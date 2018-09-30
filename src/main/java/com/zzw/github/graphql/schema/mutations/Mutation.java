@@ -14,11 +14,25 @@ public class Mutation {
     public void setAcceptTopicSuggestion(AcceptTopicSuggestion acceptTopicSuggestion) { this.acceptTopicSuggestion = acceptTopicSuggestion; }
 
     @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.AddAssigneesToAssignableInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private AddAssigneesToAssignable addAssigneesToAssignable;
+    public AddAssigneesToAssignable getAddAssigneesToAssignable() { return addAssigneesToAssignable; }
+    public void setAddAssigneesToAssignable(AddAssigneesToAssignable addAssigneesToAssignable) { this.addAssigneesToAssignable = addAssigneesToAssignable; }
+
+    @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.AddCommentInput", nonNull=@NonNull("!"), description=@Description("")),
     })
     private AddComment addComment;
     public AddComment getAddComment() { return addComment; }
     public void setAddComment(AddComment addComment) { this.addComment = addComment; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.AddLabelsToLabelableInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private AddLabelsToLabelable addLabelsToLabelable;
+    public AddLabelsToLabelable getAddLabelsToLabelable() { return addLabelsToLabelable; }
+    public void setAddLabelsToLabelable(AddLabelsToLabelable addLabelsToLabelable) { this.addLabelsToLabelable = addLabelsToLabelable; }
 
     @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.AddProjectCardInput", nonNull=@NonNull("!"), description=@Description("")),
@@ -63,6 +77,34 @@ public class Mutation {
     public void setAddStar(AddStar addStar) { this.addStar = addStar; }
 
     @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.ClearLabelsFromLabelableInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private ClearLabelsFromLabelable clearLabelsFromLabelable;
+    public ClearLabelsFromLabelable getClearLabelsFromLabelable() { return clearLabelsFromLabelable; }
+    public void setClearLabelsFromLabelable(ClearLabelsFromLabelable clearLabelsFromLabelable) { this.clearLabelsFromLabelable = clearLabelsFromLabelable; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.CloseIssueInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private CloseIssue closeIssue;
+    public CloseIssue getCloseIssue() { return closeIssue; }
+    public void setCloseIssue(CloseIssue closeIssue) { this.closeIssue = closeIssue; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.ConvertProjectCardNoteToIssueInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private ConvertProjectCardNoteToIssue convertProjectCardNoteToIssue;
+    public ConvertProjectCardNoteToIssue getConvertProjectCardNoteToIssue() { return convertProjectCardNoteToIssue; }
+    public void setConvertProjectCardNoteToIssue(ConvertProjectCardNoteToIssue convertProjectCardNoteToIssue) { this.convertProjectCardNoteToIssue = convertProjectCardNoteToIssue; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.CreateBranchProtectionRuleInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private CreateBranchProtectionRule createBranchProtectionRule;
+    public CreateBranchProtectionRule getCreateBranchProtectionRule() { return createBranchProtectionRule; }
+    public void setCreateBranchProtectionRule(CreateBranchProtectionRule createBranchProtectionRule) { this.createBranchProtectionRule = createBranchProtectionRule; }
+
+    @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.CreateCheckRunInput", nonNull=@NonNull("!"), description=@Description("")),
     })
     private CreateCheckRun createCheckRun;
@@ -91,6 +133,13 @@ public class Mutation {
     public void setCreateDeploymentStatus(CreateDeploymentStatus createDeploymentStatus) { this.createDeploymentStatus = createDeploymentStatus; }
 
     @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.CreateIssueInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private CreateIssue createIssue;
+    public CreateIssue getCreateIssue() { return createIssue; }
+    public void setCreateIssue(CreateIssue createIssue) { this.createIssue = createIssue; }
+
+    @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.CreateProjectInput", nonNull=@NonNull("!"), description=@Description("")),
     })
     private CreateProject createProject;
@@ -117,6 +166,20 @@ public class Mutation {
     private DeclineTopicSuggestion declineTopicSuggestion;
     public DeclineTopicSuggestion getDeclineTopicSuggestion() { return declineTopicSuggestion; }
     public void setDeclineTopicSuggestion(DeclineTopicSuggestion declineTopicSuggestion) { this.declineTopicSuggestion = declineTopicSuggestion; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.DeleteBranchProtectionRuleInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private DeleteBranchProtectionRule deleteBranchProtectionRule;
+    public DeleteBranchProtectionRule getDeleteBranchProtectionRule() { return deleteBranchProtectionRule; }
+    public void setDeleteBranchProtectionRule(DeleteBranchProtectionRule deleteBranchProtectionRule) { this.deleteBranchProtectionRule = deleteBranchProtectionRule; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.DeleteIssueCommentInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private DeleteIssueComment deleteIssueComment;
+    public DeleteIssueComment getDeleteIssueComment() { return deleteIssueComment; }
+    public void setDeleteIssueComment(DeleteIssueComment deleteIssueComment) { this.deleteIssueComment = deleteIssueComment; }
 
     @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.DeleteProjectInput", nonNull=@NonNull("!"), description=@Description("")),
@@ -189,6 +252,20 @@ public class Mutation {
     public void setMoveProjectColumn(MoveProjectColumn moveProjectColumn) { this.moveProjectColumn = moveProjectColumn; }
 
     @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.RemoveAssigneesFromAssignableInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private RemoveAssigneesFromAssignable removeAssigneesFromAssignable;
+    public RemoveAssigneesFromAssignable getRemoveAssigneesFromAssignable() { return removeAssigneesFromAssignable; }
+    public void setRemoveAssigneesFromAssignable(RemoveAssigneesFromAssignable removeAssigneesFromAssignable) { this.removeAssigneesFromAssignable = removeAssigneesFromAssignable; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.RemoveLabelsFromLabelableInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private RemoveLabelsFromLabelable removeLabelsFromLabelable;
+    public RemoveLabelsFromLabelable getRemoveLabelsFromLabelable() { return removeLabelsFromLabelable; }
+    public void setRemoveLabelsFromLabelable(RemoveLabelsFromLabelable removeLabelsFromLabelable) { this.removeLabelsFromLabelable = removeLabelsFromLabelable; }
+
+    @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.RemoveOutsideCollaboratorInput", nonNull=@NonNull("!"), description=@Description("")),
     })
     private RemoveOutsideCollaborator removeOutsideCollaborator;
@@ -210,6 +287,13 @@ public class Mutation {
     public void setRemoveStar(RemoveStar removeStar) { this.removeStar = removeStar; }
 
     @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.ReopenIssueInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private ReopenIssue reopenIssue;
+    public ReopenIssue getReopenIssue() { return reopenIssue; }
+    public void setReopenIssue(ReopenIssue reopenIssue) { this.reopenIssue = reopenIssue; }
+
+    @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.RequestReviewsInput", nonNull=@NonNull("!"), description=@Description("")),
     })
     private RequestReviews requestReviews;
@@ -222,6 +306,13 @@ public class Mutation {
     private RerequestCheckSuite rerequestCheckSuite;
     public RerequestCheckSuite getRerequestCheckSuite() { return rerequestCheckSuite; }
     public void setRerequestCheckSuite(RerequestCheckSuite rerequestCheckSuite) { this.rerequestCheckSuite = rerequestCheckSuite; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.ResolveReviewThreadInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private ResolveReviewThread resolveReviewThread;
+    public ResolveReviewThread getResolveReviewThread() { return resolveReviewThread; }
+    public void setResolveReviewThread(ResolveReviewThread resolveReviewThread) { this.resolveReviewThread = resolveReviewThread; }
 
     @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.SubmitPullRequestReviewInput", nonNull=@NonNull("!"), description=@Description("")),
@@ -238,6 +329,27 @@ public class Mutation {
     public void setUnlockLockable(UnlockLockable unlockLockable) { this.unlockLockable = unlockLockable; }
 
     @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.UnmarkIssueAsDuplicateInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private UnmarkIssueAsDuplicate unmarkIssueAsDuplicate;
+    public UnmarkIssueAsDuplicate getUnmarkIssueAsDuplicate() { return unmarkIssueAsDuplicate; }
+    public void setUnmarkIssueAsDuplicate(UnmarkIssueAsDuplicate unmarkIssueAsDuplicate) { this.unmarkIssueAsDuplicate = unmarkIssueAsDuplicate; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.UnresolveReviewThreadInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private UnresolveReviewThread unresolveReviewThread;
+    public UnresolveReviewThread getUnresolveReviewThread() { return unresolveReviewThread; }
+    public void setUnresolveReviewThread(UnresolveReviewThread unresolveReviewThread) { this.unresolveReviewThread = unresolveReviewThread; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.UpdateBranchProtectionRuleInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private UpdateBranchProtectionRule updateBranchProtectionRule;
+    public UpdateBranchProtectionRule getUpdateBranchProtectionRule() { return updateBranchProtectionRule; }
+    public void setUpdateBranchProtectionRule(UpdateBranchProtectionRule updateBranchProtectionRule) { this.updateBranchProtectionRule = updateBranchProtectionRule; }
+
+    @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.UpdateCheckRunInput", nonNull=@NonNull("!"), description=@Description("")),
     })
     private UpdateCheckRun updateCheckRun;
@@ -250,6 +362,20 @@ public class Mutation {
     private UpdateCheckSuitePreferences updateCheckSuitePreferences;
     public UpdateCheckSuitePreferences getUpdateCheckSuitePreferences() { return updateCheckSuitePreferences; }
     public void setUpdateCheckSuitePreferences(UpdateCheckSuitePreferences updateCheckSuitePreferences) { this.updateCheckSuitePreferences = updateCheckSuitePreferences; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.UpdateIssueInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private UpdateIssue updateIssue;
+    public UpdateIssue getUpdateIssue() { return updateIssue; }
+    public void setUpdateIssue(UpdateIssue updateIssue) { this.updateIssue = updateIssue; }
+
+    @Arguments({
+        @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.UpdateIssueCommentInput", nonNull=@NonNull("!"), description=@Description("")),
+    })
+    private UpdateIssueComment updateIssueComment;
+    public UpdateIssueComment getUpdateIssueComment() { return updateIssueComment; }
+    public void setUpdateIssueComment(UpdateIssueComment updateIssueComment) { this.updateIssueComment = updateIssueComment; }
 
     @Arguments({
         @Argument(name="input", type="com.zzw.github.graphql.schema.inputobjects.UpdateProjectInput", nonNull=@NonNull("!"), description=@Description("")),

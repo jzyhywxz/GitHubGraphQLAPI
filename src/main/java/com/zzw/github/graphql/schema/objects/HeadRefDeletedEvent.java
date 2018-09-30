@@ -19,13 +19,13 @@ public class HeadRefDeletedEvent extends com.zzw.github.graphql.schema.Metadata 
     public com.zzw.github.graphql.schema.scalars.DateTime getCreatedAt() { return this.createdAt; }
     public void setCreatedAt(com.zzw.github.graphql.schema.scalars.DateTime createdAt) { this.createdAt = createdAt; }
 
-    @Description("Identifies the Ref associated with the ")
+    @Description("Identifies the Ref associated with the head_ref_deleted event.")
     private com.zzw.github.graphql.schema.objects.Ref headRef;
     public com.zzw.github.graphql.schema.objects.Ref getHeadRef() { return this.headRef; }
     public void setHeadRef(com.zzw.github.graphql.schema.objects.Ref headRef) { this.headRef = headRef; }
 
     @NonNull("!")
-    @Description("Identifies the name of the Ref associated with the ")
+    @Description("Identifies the name of the Ref associated with the head_ref_deleted event.")
     private com.zzw.github.graphql.schema.scalars.String headRefName;
     public com.zzw.github.graphql.schema.scalars.String getHeadRefName() { return this.headRefName; }
     public void setHeadRefName(com.zzw.github.graphql.schema.scalars.String headRefName) { this.headRefName = headRefName; }

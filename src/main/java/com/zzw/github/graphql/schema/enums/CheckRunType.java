@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible types of check runs.")
 public enum CheckRunType {
     @Description("Every check run available.")
-     ALL,
+    ALL,
     @Description("The latest check run.")
-     LATEST,
+    LATEST,
 }

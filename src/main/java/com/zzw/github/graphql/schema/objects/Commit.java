@@ -12,8 +12,8 @@ public class Commit extends com.zzw.github.graphql.schema.Metadata implements co
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
         @Argument(name="filterBy", type="com.zzw.github.graphql.schema.inputobjects.CheckSuiteFilter", nonNull=@NonNull(""), description=@Description("Filters the check suites by this type.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @Description("The check suites associated with a commit.")
     private com.zzw.github.graphql.schema.objects.CheckSuiteConnection checkSuites;
@@ -23,8 +23,8 @@ public class Commit extends com.zzw.github.graphql.schema.Metadata implements co
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("Comments made on the commit.")
@@ -36,11 +36,11 @@ public class Commit extends com.zzw.github.graphql.schema.Metadata implements co
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="author", type="com.zzw.github.graphql.schema.inputobjects.CommitAuthor", nonNull=@NonNull(""), description=@Description("If non-null, filters history to only show commits with matching authorship.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="path", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the last")),
-        @Argument(name="since", type="com.zzw.github.graphql.schema.scalars.GitTimestamp", nonNull=@NonNull(""), description=@Description("elements from the list.")),
-        @Argument(name="until", type="com.zzw.github.graphql.schema.scalars.GitTimestamp", nonNull=@NonNull(""), description=@Description("If non-null, filters history to only show commits touching files under this path.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
+        @Argument(name="path", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("If non-null, filters history to only show commits touching files under this path.")),
+        @Argument(name="since", type="com.zzw.github.graphql.schema.scalars.GitTimestamp", nonNull=@NonNull(""), description=@Description("Allows specifying a beginning time or date for fetching commits.")),
+        @Argument(name="until", type="com.zzw.github.graphql.schema.scalars.GitTimestamp", nonNull=@NonNull(""), description=@Description("Allows specifying an ending time or date for fetching commits.")),
     })
     @NonNull("!")
     @Description("The linear commit history starting from (and including) this commit, in the same order as `git log`.")
@@ -51,8 +51,8 @@ public class Commit extends com.zzw.github.graphql.schema.Metadata implements co
     @Arguments({
         @Argument(name="after", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come after the specified cursor.")),
         @Argument(name="before", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull(""), description=@Description("Returns the elements in the list that come before the specified cursor.")),
-        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first")),
-        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("elements from the list.")),
+        @Argument(name="first", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the first n elements from the list.")),
+        @Argument(name="last", type="com.zzw.github.graphql.schema.scalars.Int", nonNull=@NonNull(""), description=@Description("Returns the last n elements from the list.")),
     })
     @NonNull("!")
     @Description("The parents of a commit.")
@@ -93,7 +93,7 @@ public class Commit extends com.zzw.github.graphql.schema.Metadata implements co
         @Argument(name="path", type="com.zzw.github.graphql.schema.scalars.String", nonNull=@NonNull("!"), description=@Description("The file whose Git blame information you want.")),
     })
     @NonNull("!")
-    @Description("Fetches ")
+    @Description("Fetches git blame information.")
     private com.zzw.github.graphql.schema.objects.Blame blame;
     public com.zzw.github.graphql.schema.objects.Blame getBlame() { return this.blame; }
     public void setBlame(com.zzw.github.graphql.schema.objects.Blame blame) { this.blame = blame; }

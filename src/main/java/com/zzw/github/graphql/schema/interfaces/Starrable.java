@@ -12,12 +12,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 })
 @Description("Things that can be starred.")
 public interface Starrable {
-    @NonNull("!")
     public com.zzw.github.graphql.schema.scalars.ID getId();
     public void setId(com.zzw.github.graphql.schema.scalars.ID id);
 
-    @NonNull("!")
-    @Description("Returns a boolean indicating whether the viewing user has starred this starrable.")
     public com.zzw.github.graphql.schema.scalars.Boolean getViewerHasStarred();
     public void setViewerHasStarred(com.zzw.github.graphql.schema.scalars.Boolean viewerHasStarred);
 }

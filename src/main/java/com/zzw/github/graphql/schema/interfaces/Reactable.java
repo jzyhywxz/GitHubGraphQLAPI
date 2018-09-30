@@ -17,21 +17,15 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 })
 @Description("Represents a subject that can be reacted on.")
 public interface Reactable {
-    @Description("Identifies the primary key from the database.")
     public com.zzw.github.graphql.schema.scalars.Int getDatabaseId();
     public void setDatabaseId(com.zzw.github.graphql.schema.scalars.Int databaseId);
 
-    @NonNull("!")
     public com.zzw.github.graphql.schema.scalars.ID getId();
     public void setId(com.zzw.github.graphql.schema.scalars.ID id);
 
-    @NonNull("[!]")
-    @Description("A list of reactions grouped by content left on the subject.")
     public com.zzw.github.graphql.schema.objects.ReactionGroup[] getReactionGroups();
     public void setReactionGroups(com.zzw.github.graphql.schema.objects.ReactionGroup[] reactionGroups);
 
-    @NonNull("!")
-    @Description("Can user react to this subject")
     public com.zzw.github.graphql.schema.scalars.Boolean getViewerCanReact();
     public void setViewerCanReact(com.zzw.github.graphql.schema.scalars.Boolean viewerCanReact);
 }

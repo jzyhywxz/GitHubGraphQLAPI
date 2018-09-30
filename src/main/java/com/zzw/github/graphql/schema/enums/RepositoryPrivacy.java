@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The privacy of a repository")
 public enum RepositoryPrivacy {
     @Description("Private")
-     PRIVATE,
+    PRIVATE,
     @Description("Public")
-     PUBLIC,
+    PUBLIC,
 }

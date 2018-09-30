@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which team member connections can be ordered.")
 public enum TeamMemberOrderField {
     @Description("Order team members by creation time")
-     CREATED_AT,
+    CREATED_AT,
     @Description("Order team members by login")
-     LOGIN,
+    LOGIN,
 }

@@ -9,11 +9,11 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible reasons that an issue or pull request was locked.")
 public enum LockReason {
     @Description("The issue or pull request was locked because the conversation was off-topic.")
-     OFF_TOPIC,
+    OFF_TOPIC,
     @Description("The issue or pull request was locked because the conversation was resolved.")
-     RESOLVED,
+    RESOLVED,
     @Description("The issue or pull request was locked because the conversation was spam.")
-     SPAM,
+    SPAM,
     @Description("The issue or pull request was locked because the conversation was too heated.")
-     TOO_HEATED,
+    TOO_HEATED,
 }

@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible states of a subscription.")
 public enum SubscriptionState {
     @Description("The User is never notified.")
-     IGNORED,
+    IGNORED,
     @Description("The User is notified of all conversations.")
-     SUBSCRIBED,
+    SUBSCRIBED,
     @Description("The User is only notified when particpating or @mentioned.")
-     UNSUBSCRIBED,
+    UNSUBSCRIBED,
 }

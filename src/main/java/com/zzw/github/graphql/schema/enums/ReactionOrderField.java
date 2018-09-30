@@ -9,5 +9,5 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("A list of fields that reactions can be ordered by.")
 public enum ReactionOrderField {
     @Description("Allows ordering a list of reactions by when they were created.")
-     CREATED_AT,
+    CREATED_AT,
 }

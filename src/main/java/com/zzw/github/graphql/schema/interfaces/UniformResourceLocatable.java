@@ -27,13 +27,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 })
 @Description("Represents a type that can be retrieved by a URL.")
 public interface UniformResourceLocatable {
-    @NonNull("!")
-    @Description("The HTML path to this resource.")
     public com.zzw.github.graphql.schema.scalars.URI getResourcePath();
     public void setResourcePath(com.zzw.github.graphql.schema.scalars.URI resourcePath);
 
-    @NonNull("!")
-    @Description("The URL to this resource.")
     public com.zzw.github.graphql.schema.scalars.URI getUrl();
     public void setUrl(com.zzw.github.graphql.schema.scalars.URI url);
 }

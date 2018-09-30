@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible states that can be requested when creating a check run.")
 public enum RequestableCheckStatusState {
     @Description("The check suite or run has been completed.")
-     COMPLETED,
+    COMPLETED,
     @Description("The check suite or run is in progress.")
-     IN_PROGRESS,
+    IN_PROGRESS,
     @Description("The check suite or run has been queued.")
-     QUEUED,
+    QUEUED,
 }

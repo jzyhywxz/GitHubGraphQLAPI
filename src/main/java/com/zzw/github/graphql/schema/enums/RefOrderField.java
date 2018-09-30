@@ -9,7 +9,7 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which ref connections can be ordered.")
 public enum RefOrderField {
     @Description("Order refs by their alphanumeric name")
-     ALPHABETICAL,
+    ALPHABETICAL,
     @Description("Order refs by underlying commit date if the ref prefix is refs/tags/")
-     TAG_COMMIT_DATE,
+    TAG_COMMIT_DATE,
 }

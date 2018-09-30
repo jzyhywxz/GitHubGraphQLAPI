@@ -6,7 +6,7 @@ import com.zzw.github.graphql.schema.annotations.Description;
 import com.zzw.github.graphql.schema.annotations.ImplementedBy;
 import com.zzw.github.graphql.schema.annotations.NonNull;
 
-@Description("Adds a card to a ProjectColumn. Either  or  must be provided but  both.")
+@Description("Adds a card to a ProjectColumn. Either contentId or note must be provided but not both.")
 public class AddProjectCard {
     @NonNull("!")
     private com.zzw.github.graphql.schema.inputobjects.AddProjectCardInput input;

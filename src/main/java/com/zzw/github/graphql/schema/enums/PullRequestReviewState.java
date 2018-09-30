@@ -9,13 +9,13 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible states of a pull request review.")
 public enum PullRequestReviewState {
     @Description("A review allowing the pull request to merge.")
-     APPROVED,
+    APPROVED,
     @Description("A review blocking the pull request from merging.")
-     CHANGES_REQUESTED,
+    CHANGES_REQUESTED,
     @Description("An informational review.")
-     COMMENTED,
+    COMMENTED,
     @Description("A review that has been dismissed.")
-     DISMISSED,
+    DISMISSED,
     @Description("A review that has not yet been submitted.")
-     PENDING,
+    PENDING,
 }

@@ -9,5 +9,5 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Properties by which team discussion connections can be ordered.")
 public enum TeamDiscussionOrderField {
     @Description("Allows chronological ordering of team discussions.")
-     CREATED_AT,
+    CREATED_AT,
 }

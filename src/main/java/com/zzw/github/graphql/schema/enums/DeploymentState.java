@@ -9,21 +9,19 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("The possible states in which a deployment can be.")
 public enum DeploymentState {
     @Description("The pending deployment was not updated after 30 minutes.")
-     ABANDONED,
+    ABANDONED,
     @Description("The deployment is currently active.")
-     ACTIVE,
+    ACTIVE,
     @Description("An inactive transient deployment.")
-     DESTROYED,
+    DESTROYED,
     @Description("The deployment experienced an error.")
-     ERROR,
+    ERROR,
     @Description("The deployment has failed.")
-     FAILURE,
+    FAILURE,
     @Description("The deployment is inactive.")
-     INACTIVE,
-    @Description("")
-     IN_PROGRESS,
-    @Description("The deployment is in progress.")
-     PENDING,
+    INACTIVE,
+    IN_PROGRESS,
     @Description("The deployment is pending.")
-     QUEUED,
+    PENDING,
+    QUEUED,
 }

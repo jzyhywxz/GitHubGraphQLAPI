@@ -13,6 +13,11 @@ public class ReviewDismissalAllowance extends com.zzw.github.graphql.schema.Meta
     public com.zzw.github.graphql.schema.unions.ReviewDismissalAllowanceActor getActor() { return this.actor; }
     public void setActor(com.zzw.github.graphql.schema.unions.ReviewDismissalAllowanceActor actor) { this.actor = actor; }
 
+    @Description("Identifies the branch protection rule associated with the allowed user or team.")
+    private com.zzw.github.graphql.schema.objects.BranchProtectionRule branchProtectionRule;
+    public com.zzw.github.graphql.schema.objects.BranchProtectionRule getBranchProtectionRule() { return this.branchProtectionRule; }
+    public void setBranchProtectionRule(com.zzw.github.graphql.schema.objects.BranchProtectionRule branchProtectionRule) { this.branchProtectionRule = branchProtectionRule; }
+
     @NonNull("!")
     private com.zzw.github.graphql.schema.scalars.ID id;
     public com.zzw.github.graphql.schema.scalars.ID getId() { return this.id; }

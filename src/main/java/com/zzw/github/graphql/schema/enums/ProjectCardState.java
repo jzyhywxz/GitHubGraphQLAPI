@@ -9,9 +9,9 @@ import com.zzw.github.graphql.schema.annotations.NonNull;
 @Description("Various content states of a ProjectCard")
 public enum ProjectCardState {
     @Description("The card has content only.")
-     CONTENT_ONLY,
+    CONTENT_ONLY,
     @Description("The card has a note only.")
-     NOTE_ONLY,
+    NOTE_ONLY,
     @Description("The card is redacted.")
-     REDACTED,
+    REDACTED,
 }
