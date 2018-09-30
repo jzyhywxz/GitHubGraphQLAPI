@@ -2,7 +2,6 @@ package com.zzw.github.graphql.builder;
 
 import com.zzw.github.graphql.parser.GGParser;
 import com.zzw.github.graphql.schema.annotations.*;
-import com.zzw.github.graphql.spider.GitHubGraphQLParser;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.*;
@@ -13,6 +12,8 @@ import java.util.List;
  * Created by zzw on 2018/8/23.
  */
 public class TypeUtil {
+    public static final String PACKAGE_PREFIX = "com.zzw.github.graphql.schema";
+
     public static List<String> getDeclaredIdentifiers(Class clazz) {
         List<String> identifiers = new ArrayList<String>();
 
@@ -328,55 +329,55 @@ public class TypeUtil {
         if (clazz == null) {
             return false;
         }
-        return clazz.getName().startsWith(GitHubGraphQLParser.PACKAGE_PREFIX + "query.");
+        return clazz.getName().startsWith(PACKAGE_PREFIX + ".queries.");
     }
 
     public static boolean isMutation(Class clazz) {
         if (clazz == null) {
             return false;
         }
-        return clazz.getName().startsWith(GitHubGraphQLParser.PACKAGE_PREFIX + "mutations.");
+        return clazz.getName().startsWith(PACKAGE_PREFIX + ".mutations.");
     }
 
     public static boolean isObject(Class clazz) {
         if (clazz == null) {
             return false;
         }
-        return clazz.getName().startsWith(GitHubGraphQLParser.PACKAGE_PREFIX + "objects.");
+        return clazz.getName().startsWith(PACKAGE_PREFIX + ".objects.");
     }
 
     public static boolean isInterface(Class clazz) {
         if (clazz == null) {
             return false;
         }
-        return clazz.getName().startsWith(GitHubGraphQLParser.PACKAGE_PREFIX + "interfaces.");
+        return clazz.getName().startsWith(PACKAGE_PREFIX + ".interfaces.");
     }
 
     public static boolean isEnum(Class clazz) {
         if (clazz == null) {
             return false;
         }
-        return clazz.getName().startsWith(GitHubGraphQLParser.PACKAGE_PREFIX + "enums.");
+        return clazz.getName().startsWith(PACKAGE_PREFIX + ".enums.");
     }
 
     public static boolean isUnion(Class clazz) {
         if (clazz == null) {
             return false;
         }
-        return clazz.getName().startsWith(GitHubGraphQLParser.PACKAGE_PREFIX + "unions.");
+        return clazz.getName().startsWith(PACKAGE_PREFIX + ".unions.");
     }
 
     public static boolean isInputObject(Class clazz) {
         if (clazz == null) {
             return false;
         }
-        return clazz.getName().startsWith(GitHubGraphQLParser.PACKAGE_PREFIX + "inputobjects.");
+        return clazz.getName().startsWith(PACKAGE_PREFIX + ".inputobjects.");
     }
 
     public static boolean isScalar(Class clazz) {
         if (clazz == null) {
             return false;
         }
-        return clazz.getName().startsWith(GitHubGraphQLParser.PACKAGE_PREFIX + "scalars.");
+        return clazz.getName().startsWith(PACKAGE_PREFIX + ".scalars.");
     }
 }

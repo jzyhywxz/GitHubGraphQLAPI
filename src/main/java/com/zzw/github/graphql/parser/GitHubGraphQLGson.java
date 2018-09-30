@@ -3,12 +3,7 @@ package com.zzw.github.graphql.parser;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.zzw.github.graphql.schema.interfaces.*;
-import com.zzw.github.graphql.schema.scalars.*;
-import com.zzw.github.graphql.schema.scalars.Boolean;
-import com.zzw.github.graphql.schema.scalars.Float;
-import com.zzw.github.graphql.schema.scalars.String;
 import com.zzw.github.graphql.schema.unions.*;
-import com.zzw.github.graphql.spider.GitHubGraphQLParser;
 
 import java.lang.reflect.Field;
 
@@ -16,6 +11,8 @@ import java.lang.reflect.Field;
  * Created by zzw on 2018/6/9.
  */
 public class GitHubGraphQLGson {
+    public static final String PACKAGE_PREFIX = "com.zzw.github.graphql.schema";
+
     private Gson gson;
     private static GitHubGraphQLGson instance;
 
@@ -48,7 +45,7 @@ public class GitHubGraphQLGson {
             try {
                 for (Class clazz : clazzes) {
                     java.lang.String clazzName = clazz.getSimpleName();
-                    java.lang.String aClazzName = GitHubGraphQLParser.PACKAGE_PREFIX + "scalars." +
+                    java.lang.String aClazzName = PACKAGE_PREFIX + ".scalars." +
                             clazzName.substring(0, clazzName.length() - "TypeConverter".length());
                     Class aClazz = Class.forName(aClazzName);
                     Object aObject = clazz.newInstance();
@@ -71,7 +68,7 @@ public class GitHubGraphQLGson {
                 for (Field field : fields) {
                     field.setAccessible(true);
                     java.lang.String fieldName = field.getName();
-                    java.lang.String clazzName = GitHubGraphQLParser.PACKAGE_PREFIX + "interfaces." + fieldName.substring(0, fieldName.indexOf("_"));
+                    java.lang.String clazzName = PACKAGE_PREFIX + ".interfaces." + fieldName.substring(0, fieldName.indexOf("_"));
                     Class clazz = Class.forName(clazzName);
                     Class[] fieldValue = (Class[]) field.get(null);
                     builder.registerTypeAdapter(clazz, new DownwardsTypeConverter(fieldValue));
@@ -91,7 +88,7 @@ public class GitHubGraphQLGson {
                 for (Field field : fields) {
                     field.setAccessible(true);
                     java.lang.String fieldName = field.getName();
-                    java.lang.String clazzName = GitHubGraphQLParser.PACKAGE_PREFIX + "unions." + fieldName.substring(0, fieldName.indexOf("_"));
+                    java.lang.String clazzName = PACKAGE_PREFIX + ".unions." + fieldName.substring(0, fieldName.indexOf("_"));
                     Class clazz = Class.forName(clazzName);
                     Class[] fieldValue = (Class[]) field.get(null);
                     builder.registerTypeAdapter(clazz, new DownwardsTypeConverter(fieldValue));

@@ -1,7 +1,5 @@
 package com.zzw.github.graphql.builder;
 
-import com.zzw.github.graphql.spider.GitHubGraphQLParser;
-
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.util.LinkedHashSet;
@@ -14,7 +12,7 @@ import java.util.regex.Pattern;
  * Created by zzw on 2018/4/8.
  */
 public class GraphQLBuilder {
-    private static final String SCALAR_PREFIX = GitHubGraphQLParser.PACKAGE_PREFIX + "scalars.";
+    private static final String SCALAR_PREFIX = "com.zzw.github.graphql.schema.scalars.";
 
     private GraphQLNode mRootNode;
     private Set<GraphQLArgument> mVariables;
