@@ -2,215 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecaf96d7-2994-4fa0-ad99-48d96d698a21" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_saxon_Saxon_HE_9_5_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlcleaner_htmlcleaner_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_1_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom2_2_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_webmagic_core_0_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_webmagic_extension_0_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_webmagic_saxon_0_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_xsoup_0_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/Error.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/Location.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/Metadata.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/annotations/Argument.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/annotations/Arguments.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/annotations/Description.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/annotations/ImplementedBy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/annotations/NonNull.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/InterfaceManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/query/Query.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/query/QueryEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/Boolean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/DateTime.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/Float.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/GitObjectID.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/GitSSHRemote.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/GitTimestamp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/HTML.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/ID.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/Int.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/String.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/URI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/scalars/X509Certificate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/Closer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/CollectionItemContent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/IssueOrPullRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/IssueTimelineItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/MilestoneItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/ProjectCardItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/PullRequestTimelineItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/PushAllowanceActor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/ReferencedSubject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/RenamedTitleSubject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/RequestedReviewer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/ReviewDismissalAllowanceActor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/SearchResultItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/UnionManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/GGSpider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/GitHubGraphQLGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/GitHubGraphQLParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/RecordQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/spider/GGSpiderTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GitHubGraphQLAPI.iml" afterPath="$PROJECT_DIR$/GitHubGraphQLAPI.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/builder/GraphQLBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/builder/GraphQLBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/builder/TypeUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/builder/TypeUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/parser/GitHubGraphQLGson.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/parser/GitHubGraphQLGson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CheckAnnotationLevel.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CheckAnnotationLevel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CheckConclusionState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CheckConclusionState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CheckRunType.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CheckRunType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CheckStatusState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CheckStatusState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CollaboratorAffiliation.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CollaboratorAffiliation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CommentAuthorAssociation.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CommentAuthorAssociation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CommentCannotUpdateReason.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/CommentCannotUpdateReason.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/DeploymentState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/DeploymentState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/DeploymentStatusState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/DeploymentStatusState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/GistOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/GistOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/GistPrivacy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/GistPrivacy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/GitSignatureState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/GitSignatureState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/IssueOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/IssueOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/IssueState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/IssueState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/LanguageOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/LanguageOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/LockReason.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/LockReason.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/MergeStateStatus.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/MergeStateStatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/MergeableState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/MergeableState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/MilestoneOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/MilestoneOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/MilestoneState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/MilestoneState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/OrderDirection.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/OrderDirection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/OrganizationInvitationRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/OrganizationInvitationRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/OrganizationInvitationType.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/OrganizationInvitationType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ProjectCardState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ProjectCardState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ProjectOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ProjectOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ProjectState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ProjectState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/PullRequestReviewEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/PullRequestReviewEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/PullRequestReviewState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/PullRequestReviewState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/PullRequestState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/PullRequestState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ReactionContent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ReactionContent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ReactionOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ReactionOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RefOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RefOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ReleaseOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/ReleaseOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryAffiliation.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryAffiliation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryContributionType.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryContributionType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryLockReason.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryLockReason.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryPermission.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryPermission.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryPrivacy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RepositoryPrivacy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RequestableCheckStatusState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/RequestableCheckStatusState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/SearchType.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/SearchType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/StarOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/StarOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/StatusState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/StatusState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/SubscriptionState.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/SubscriptionState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamDiscussionCommentOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamDiscussionCommentOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamDiscussionOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamDiscussionOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamMemberOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamMemberOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamMemberRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamMemberRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamMembershipType.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamMembershipType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamPrivacy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamPrivacy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamRepositoryOrderField.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamRepositoryOrderField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TeamRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TopicSuggestionDeclineReason.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/enums/TopicSuggestionDeclineReason.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/inputobjects/CheckSuiteAutoTriggerPreference.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/inputobjects/CheckSuiteAutoTriggerPreference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/inputobjects/UpdateProjectCardInput.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/inputobjects/UpdateProjectCardInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Actor.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Actor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Closable.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Closable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Comment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Deletable.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Deletable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/GitObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/GitObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/GitSignature.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/GitSignature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/HovercardContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/HovercardContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Lockable.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Lockable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Node.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/ProjectOwner.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/ProjectOwner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Reactable.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Reactable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RegistryPackageOwner.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RegistryPackageOwner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RegistryPackageSearch.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RegistryPackageSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RepositoryInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RepositoryInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RepositoryNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RepositoryNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RepositoryOwner.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/RepositoryOwner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Starrable.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Starrable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Subscribable.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Subscribable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/UniformResourceLocatable.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/UniformResourceLocatable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Updatable.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Updatable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/UpdatableComment.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/UpdatableComment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/mutations/AddProjectCard.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/mutations/AddProjectCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/mutations/Mutation.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/mutations/Mutation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/AddedToProjectEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/AddedToProjectEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/CheckRun.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/CheckRun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/CheckSuite.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/CheckSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ClosedEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ClosedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Commit.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Commit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/CommitComment.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/CommitComment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/CommitCommentThread.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/CommitCommentThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ConvertedNoteToIssueEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ConvertedNoteToIssueEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/DependencyGraphManifest.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/DependencyGraphManifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Deployment.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Deployment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Gist.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Gist.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/GistComment.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/GistComment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/GitHubMetadata.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/GitHubMetadata.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/GpgSignature.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/GpgSignature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/HeadRefDeletedEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/HeadRefDeletedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Issue.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Issue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/IssueComment.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/IssueComment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Label.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Label.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/LabeledEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/LabeledEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/License.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/License.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/MergedEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/MergedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Milestone.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Milestone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/MovedColumnsInProjectEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/MovedColumnsInProjectEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Organization.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Organization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/OrganizationIdentityProvider.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/OrganizationIdentityProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/OrganizationTeamsHovercardContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/OrganizationTeamsHovercardContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/OrganizationsHovercardContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/OrganizationsHovercardContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Project.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Project.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ProjectCard.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ProjectCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ProjectColumn.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ProjectColumn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ProtectedBranch.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ProtectedBranch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PullRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PullRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PullRequestReview.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PullRequestReview.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PullRequestReviewComment.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PullRequestReviewComment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PullRequestReviewThread.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PullRequestReviewThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PushAllowance.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/PushAllowance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ReactionGroup.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ReactionGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Ref.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Ref.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ReferencedEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ReferencedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Release.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Release.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/RemovedFromProjectEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/RemovedFromProjectEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ReopenedEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ReopenedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Repository.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Repository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ReviewDismissalAllowance.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/ReviewDismissalAllowance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/SmimeSignature.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/SmimeSignature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/SubscribedEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/SubscribedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Team.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/Team.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/TeamDiscussion.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/TeamDiscussion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/TeamDiscussionComment.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/TeamDiscussionComment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/UnknownSignature.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/UnknownSignature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/UnlabeledEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/UnlabeledEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/UnsubscribedEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/UnsubscribedEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/network/GGClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/network/GGClientTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/parser/GGParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/parser/GGParserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/mutations/MutationEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/mutations/MutationEntry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/queries/QueryEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/queries/QueryEntry.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -223,7 +20,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MutationEntry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/mutations/MutationEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryEntry.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/queries/QueryEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -299,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/parser/DownwardsTypeConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/network/HttpAgentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/GGSpider.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/GitHubGraphQLSpider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/GitHubGraphQLParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/PageParser.java" />
@@ -328,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/parser/GitHubGraphQLGson.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/builder/GraphQLBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/network/GGClientTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -410,7 +228,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -493,70 +312,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitHubGraphQLAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitHubGraphQLAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitHubGraphQLAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitHubGraphQLAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1006,15 +764,18 @@
       <workItem from="1536726566364" duration="42000" />
       <workItem from="1538182473444" duration="28976000" />
       <workItem from="1538269273977" duration="10904000" />
-      <workItem from="1538290791368" duration="952000" />
+      <workItem from="1538290791368" duration="1557000" />
+      <workItem from="1538292516245" duration="132000" />
+      <workItem from="1538398473639" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303949000" />
+    <option name="totallyTimeSpent" value="304853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1025,7 +786,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6174957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28290468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1053,14 +814,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/IssueTimelineItemEdge.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/unions/IssueTimelineItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/objects/IssueComment.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/parser/DownwardsTypeConverter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1126,14 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/GitHubGraphQLSpider.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/GitHubGraphQLGenerator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/spider/GitHubGraphQLParser.java" />
@@ -1142,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="126" column="13" lean-forward="false" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,120 +894,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/PageParser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/spider/GGSpiderTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/MutationParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/QueryParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/InterfaceParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/EnumParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/ObjectParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="38" column="65" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="38" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/UnionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/InputObjectParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="26" column="70" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="26" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/ScalarParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/MutationParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/QueryParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/InterfaceParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/EnumParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/ObjectParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/UnionParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/InputObjectParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/ScalarParser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/RecordQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/TaskQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/TaskScheduler.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/generate/ParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/LinkParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/CommonParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/GitHubGraphQLGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/GitHubGraphQLSpider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2133">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/generate/GenerateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/generate/ParserTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/LinkParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/CommonParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/GitHubGraphQLGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/GitHubGraphQLSpider.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/github/graphql/generate/GenerateTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/Metadata.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -1271,14 +918,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/generate/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/ProjectOwner.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/interfaces/InterfaceManager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1298,9 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="90" column="49" lean-forward="false" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1308,9 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1318,9 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1328,9 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1338,9 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1348,6 +973,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/mutations/MutationEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/github/graphql/schema/queries/QueryEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
